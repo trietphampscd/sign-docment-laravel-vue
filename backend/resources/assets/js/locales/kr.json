@@ -1,0 +1,612 @@
+{
+  "May 1, 2019": "2019 년 5 월 1 일",
+  "6:59:59 AM": "오전 6:59:59",
+  "Stamp": "우표",
+  "Signature": "서명",
+  "Full Name": "전체 이름을",
+  "Company": "회사는",
+  "Title": "제목",
+  "Text": "텍스트",
+  "Date Signed": "명 날짜",
+  "Attachments": "첨부 파일",
+  "Account": "계정",
+  "Pricing Plan": "가격 계획",
+  "Branding": "브랜드",
+  "Add Documents": "추가 문서를",
+  "Logout": "로그 아웃",
+  "Profile": "프로필",
+  "We are happy to see you again Suzanne Thompson": "우리는 당신을 다시 볼 수잔 톰슨",
+  "CoffeeSign even takes care reminding our clients": "CoffeeSign 심지어 돌게 우리의 클라이언트",
+  "Waiting for Others": "다른 사람을 기다리고",
+  "Upgrade to Standard plan": "업그레이드를 기준 계획",
+  "Upgrade now and enjoy additional features": "업그레이드는 지금과 추가 기능을 즐길 수 있",
+  "Click here to upgrade": "여기를 클릭하여 업그레이드",
+  "SIGNATURE": "서명",
+  "Replace": "대체",
+  "Remove": "제",
+  "INITIALS": "이니셜",
+  "STAMP": "탬프",
+  "Upload Initials": "업로드 이니셜",
+  "Action Required": "필요한 작업",
+  "Needs to Sign": "사인하기",
+  "Receives a copy": "사본 받기",
+  "Receives a Copy": "사본 받기",
+  "In personal signer": "사인할 사람",
+  "Purpose of using": "사용 목적",
+  "Number of Employees": "사원수",
+  "Select Industry": "업종",
+  "My Personnel use": "내 직원 사용",
+  "My Business": "내 사업",
+  "Accounting & Tax Accounting": "Accounting & Tax Accounting",
+  "Business Services / Consulting Business Services": "Business Services / Consulting Business Services",
+  "Construction - General Construction":"Construction - General Construction",
+  "Construction - Home Builder Real Estate - Construction":"Construction - Home Builder Real Estate - Construction",
+  "Debt Settlement Debt Settlement/Loan Modification":"Debt Settlement Debt Settlement/Loan Modification",
+  "Education Education":"Education Education",
+  "Financial Services - Banking Banking":"Financial Services - Banking Banking",
+  "Financial Services - Credit Unions Credit Unions":"Financial Services - Credit Unions Credit Unions",
+  "Financial Services - Other Financial Services":"Financial Services - Other Financial Services",
+  "Financial Services - Wealth & Asset Management Wealth Management":"Financial Services - Wealth & Asset Management Wealth Management",
+  "Government - City Government - City":"Government - City Government - City",
+  "Government - County Government - County":"Government - County Government - County",
+  "Government - Federal Government - National":"Government - Federal Government - National",
+  "Government - State Government - State":"Government - State Government - State",
+  "Healthcare - Health Plans & Payers Insurance - Health":"Healthcare - Health Plans & Payers Insurance - Health",
+  "Healthcare - Providers Healthcare - Providers":"Healthcare - Providers Healthcare - Providers",
+  "HR Staffing HR Staffing":"HR Staffing HR Staffing",
+  "Insurance - Agents / Brokers Insurance - Agency":"Insurance - Agents / Brokers Insurance - Agency",
+  "Insurance - Carriers Insurance - Carriers":"Insurance - Carriers Insurance - Carriers",
+  "Legal Legal":"Legal Legal",
+  "Life Sciences - Medical Devices Life Sciences - Medical Devices":"Life Sciences - Medical Devices Life Sciences - Medical Devices",
+  "Life Sciences - Other Life Sciences - Other":"Life Sciences - Other Life Sciences - Other",
+  "Life Sciences - Pharmaceuticals Life Sciences - Pharmaceuticals":"Life Sciences - Pharmaceuticals Life Sciences - Pharmaceuticals",
+  "Life Sciences - Wholesale Distributors Life Sciences - Wholesale/Distributor":"Life Sciences - Wholesale Distributors Life Sciences - Wholesale/Distributor",
+  "Manufacturing":"Manufacturing",
+  "Mortgage Broker Real Estate - Mortgage":"Mortgage Broker Real Estate - Mortgage",
+  "Not For Profit":"Not For Profit",
+  "Real Estate - Agent Real Estate - Agent":"Real Estate - Agent Real Estate - Agent",
+  "Real Estate - Broker/Owner Real Estate - Broker/Owner":"Real Estate - Broker/Owner Real Estate - Broker/Owner",
+  "Real Estate - Commercial Real Estate - Commercial":"Real Estate - Commercial Real Estate - Commercial",
+  "Real Estate - Property Management Real Estate - Property Management":"Real Estate - Property Management Real Estate - Property Management",
+  "Retail Retail":"Retail Retail",
+  "Sports & Entertainment Travel & Leisure":"Sports & Entertainment Travel & Leisure",
+  "Technology - General Technology":"Technology - General Technology",
+  "Technology - Startup Technology":"Technology - Startup Technology",
+  "Telecommunications":"Telecommunications",
+  "Other":"Other",
+  "home": {
+    "title": "커피사인에 어서오세요!",
+    "subtitle": "정직한",
+    "comments": "커피사인은 모든 클라이언트를 소중히 생각합니다.",
+    "user": {
+      "action": {
+        "typeLeft": "내 사인필요",
+        "typeRight": "상대의 사인 기다리"
+      },
+      "plan": {
+        "title": "스탠다드플랜으로 업그레이드",
+        "comments": "업그레이드하는 것으로 제한 없이 사용 가능합니다.",
+        "click": "업그레이드는 여기서"
+      }
+    },
+    "profile": {
+      "title": "프로필을 완성",
+      "comments": "Lorem ipsum dolor sit amet, ea meis fabellas nam, movet contentiones te eum.",
+      "button": "더 보기"
+    },
+    "signature": "사인",
+    "replace": "변경",
+    "remove": "삭제",
+    "initials": "이니셜",
+    "st": "ST",
+    "stamp": "도장",
+    "upload": "이니셜을 업로드",
+    "drag": {
+      "title": "파일을 드래그하거나, 업로드 해 주세요.",
+      "title_1": "화일을 여기에 Drag 하거나",
+      "title_2": "브라우징하여",
+      "title_3": "화일을 업로드",
+      "subtitle": "아니면 아래의 옵션이 사용 가능합니다:",
+      "comments": "아니면, 탬플렛이 사용 가능합니다.",
+      "button": "탬플렛으로"
+    }
+  },
+  "layout": {
+    "button": "플랜을 업그레이드",
+    "hello": "정직한님",
+    "payment": {
+      "sidebar": {
+        "button": "사인하기",
+        "account": "어카운트",
+        "signature": "사인",
+        "pricing": "요금플랜",
+        "branding": "브랜딩"
+      },
+      "header": {
+        "comments": "현재 플랜:",
+        "icon": "무료",
+        "documents": "문서",
+        "templates": "템플렛"
+      }
+    },
+    "documents": {
+      "sidebar": {
+        "button": "삭제"
+      },
+      "header": {
+        "upload": "문서 업로드",
+        "recipients": "상대를 추가",
+        "prepare": "사인 준비",
+        "review": "리뷰"
+      },
+      "modal": {
+        "title": "어서오세요",
+        "subtitle": "단순하고 사용하기 쉬운 전자사인 서비스가 이용가능합니다.",
+        "summary": "5회까지 이용가능합니다.",
+        "more": "1000 이상",
+        "error": {
+          "name": {
+            "first": "이름을 입력해 주세요",
+            "last": "성을 입력해 주세요"
+          },
+          "purpose": "사용 목적을 선택하십시오",
+          "company": "회사를 입력하십시오",
+          "employee": "직원을 선택하십시오",
+          "title": "직책을 입력하십시오",
+          "industry": "산업을 선택하십시오"
+        },
+        "purpose": "사용 목적",
+        "employee": "사원수",
+        "industry": "업종",
+        "button": "시작",
+        "array": [
+          "업종",
+          "Accounting & Tax Accounting",
+          "Business Services / Consulting Business Services",
+          "Construction - General Construction",
+          "Construction - Home Builder Real Estate - Construction",
+          "Debt Settlement Debt Settlement/Loan Modification",
+          "Education Education",
+          "Financial Services - Banking Banking",
+          "Financial Services - Credit Unions Credit Unions",
+          "Financial Services - Other Financial Services",
+          "Financial Services - Wealth & Asset Management Wealth Management",
+          "Government - City Government - City",
+          "Government - County Government - County",
+          "Government - Federal Government - National",
+          "Government - State Government - State",
+          "Healthcare - Health Plans & Payers Insurance - Health",
+          "Healthcare - Providers Healthcare - Providers",
+          "HR Staffing HR Staffing",
+          "Insurance - Agents / Brokers Insurance - Agency",
+          "Insurance - Carriers Insurance - Carriers",
+          "Legal Legal",
+          "Life Sciences - Medical Devices Life Sciences - Medical Devices",
+          "Life Sciences - Other Life Sciences - Other",
+          "Life Sciences - Pharmaceuticals Life Sciences - Pharmaceuticals",
+          "Life Sciences - Wholesale Distributors Life Sciences - Wholesale/Distributor",
+          "Manufacturing",
+          "Mortgage Broker Real Estate - Mortgage",
+          "Not For Profit",
+          "Real Estate - Agent Real Estate - Agent",
+          "Real Estate - Broker/Owner Real Estate - Broker/Owner",
+          "Real Estate - Commercial Real Estate - Commercial",
+          "Real Estate - Property Management Real Estate - Property Management",
+          "Retail Retail",
+          "Sports & Entertainment Travel & Leisure",
+          "Technology - General Technology",
+          "Technology - Startup Technology",
+          "Telecommunications",
+          "Other"
+        ],
+        "nav": [
+          "정직한",
+          "윤승환",
+          "정희나"
+        ]
+      }
+    },
+    "sign": {
+      "check": "문서를 클릭해 주세요",
+      "signing": "사인",
+      "complition": "완성",
+      "sign": {
+        "later": "나중에 사인하기",
+        "start": "사인하기"
+      },
+      "finishLater": "나중에 완성하기",
+      "finish": "완성하기,"
+    }
+  },
+  "docsign": {
+    "next": "다음에",
+    "back": "돌아가기",
+    "send": "쓰기",
+    "lorem": "업무위탁문서.doc",
+    "documents": "문서",
+    "efficiantur": "업무위탁문서.pdf",
+    "sign": "사인하기",
+    "copy": "사본 받기",
+    "view": "보기",
+    "document": {
+      "title": "문서를 추가",
+      "checkbox": "나만 사인하기"
+    },
+    "recipients": {
+      "title": "사인할 사람",
+      "button": {
+        "email": "메일을 보내기",
+        "talk": "카카오로 보내기"
+      },
+      "password": "비밀번호를 설정하기",
+      "placeholder": {
+        "recipient": "사인할 상대명*",
+        "email": "메일 주소*",
+        "password": "비밀번호*",
+        "confirm": "비밀번호확인"
+      },
+      "recipient": "상대를 추가"
+    },
+    "prepare": {
+      "title": "문서를 준비",
+      "arrow": "누가 사인하겠습니까?"
+    },
+    "review": {
+      "review": "리뷰하고 보내기",
+      "title": "TO: 사인할 사람 모두에게",
+      "subtitle": "메일 타이틀",
+      "email": "메일 본문",
+      "input_email_sub_1":"Coffeesign.io에서", 
+      "input_email_sub_2":"에 대한 서명 요청",
+      "input_message_1":"논의했듯이 친절하게 문서를 살펴보고 서명하십시오.",
+      "input_message_2":"감사",
+      "placeholder": {
+        "coffeeSign": "커피사인 해 주세요.",
+        "message": "메세지를 입력 해 주세ㅇ"
+      },
+      "expiration": "유효기간",
+      "request": {
+        "expire": "유효기간 완료까지 남은 날짜수:",
+        "scheduled": "유효기간만료일",
+        "at": ""
+      },
+      "documents": "문서",
+      "recipients": "사인할 상대",
+      "roger": "정직한",
+      "barrett": "윤승환",
+      "william": "정희나",
+      "signer": "사인할 사람",
+      "comments": "사인 요청이 완료되면, 사인할 사람에게 메일 또는 카카오 메세지가 전송됩니다.",
+      "modal": {
+        "title": "완료",
+        "comments": "커피하인을 이용해 주셔서, 감사합니다. 모든 사인이 완료되면 상대방에게 메일이 전달됩니다.",
+        "button": "메인 페이지로"
+      }
+    }
+  },
+  "payment": {
+    "document": {
+      "title": "문서리스트",
+      "placeholder": "검색은 여기에",
+      "status": "사인 상태:",
+      "completed": "완료",
+      "improvement": "지속적 개선",
+      "name": "정직한",
+      "table": {
+        "document": "문서 타이틀",
+        "status": "상태",
+        "change": "최종편집일",
+        "action": "액션",
+        "selected": "선택된",
+        "delete": "지우다",
+        "me": "나에게",
+        "scott": "정직한",
+        "hannah": "윤승환"
+
+      },
+      "dropdown": {
+        "copy": "복사하기",
+        "save": "탬플렛으로 보존하기",
+        "history": "이력",
+        "export": "CSV로 익스포트",
+        "delete": "삭제"
+      },
+       "collapse": {
+        "sign": "사인을 기다리기",
+        "pages": "페이지="
+      },
+      "per": "페이지당",
+      "period": "날짜"
+
+    },
+    "pricing": {
+      "title": "요금 플랜",
+      "header": "개인 월별 요금제",
+      "mastercard": "마스터 카드",
+      "payment": "다음 지불일",
+      "available": "가능:",
+      "history": "지불 이력",
+      "date": "날짜",
+      "type": "타입",
+      "transaction" :"거래",
+      "amount": "금액",
+      "receipt": "영수증",
+      "invoice": "인보이스",
+      "view": "PDF를 보기",
+      "button": "인보이스를 더 보기",
+      "modal": {
+        "method": "지불 방법을 변경",
+        "card": "신용카드, 데빗카드번호",
+        "month": "유효기간(월)",
+        "year": "유효기간(년)",
+        "name": {
+          "first": "이름",
+          "last": "성"
+        },
+        "address": "신용카드에 등록된 주소",
+        "placeholder": "신용카드에 등록된 주소를 입력해 주세요.",
+        "code": "우편번호",
+        "country": "나라",
+        "revert": "복원",
+        "save": "보존"
+
+      },
+      "credit": "신용카드",
+      "select": "나라 선택"
+    },
+    "template": {
+      "title": "탬플렛",
+      "placeholder": "검색은 여기로",
+      "table": {
+        "subject": "타이틀",
+        "created": "최초 작성시간",
+        "change": "최종 변경시간",
+        "used": "사용회수",
+        "type": "타입",
+        "auther": "작성자",
+        "action": "액션"
+      },
+      "dropdown": {
+        "preview" :"미리보기",
+        "send": "사인을 요청하기",
+        "edit": "탬플렛을 수정하기",
+        "share": "다른 유저에게 탬플렛을 공유하기"
+      },
+      "per": "페이지당",
+      "modal": {
+        "title": "XXX탬플렛을 다른 유저에게 공유하겠습니까?",
+        "button": "탬플렛을 공유하기"
+      },
+      "inquiry": "요청",
+      "report": "리포트",
+      "tag": "태그",
+      "proposed": "추천 태그",
+      "example": "추천 태그의 예",
+      "official": "오피셜",
+      "shared": "공유",
+      "mine": "자신의 탬플렛"
+    },
+    "upgrade": {
+      "titleLeft": "업그레이드",
+      "titleRight": "플랜",
+      "annual": "년별",
+      "monthly": "달별",
+      "month": "달별",
+      "user": "유저별",
+      "annually": "매년",
+      "limit": "사인요청 회수제한",
+      "button": "플랜을 취소",
+      "free": "무료",
+      "personnel": "개인적 이용",
+      "standard": "스탠다드",
+      "pro": "프로",
+      "total": "총회수",
+      "noLimit": "제한없음"
+    },
+    "upgradeTo": {
+      "title": "업그레이드",
+      "header": "지불정보",
+      "label": "신용카드, 데빗카드 번호",
+      "error": {
+        "card": "카드번호를 입력해 주세요.",
+        "cvv": "CVV번호를 입력해 주세요.",
+        "first": "이름을 입력해 주세요.",
+        "last": "성을 입력해 주세요.",
+        "state": "도정보를 입력해 주세요.",
+        "address": "주소를 입력해 주세요.",
+        "code": "우편번호를 입력해 주세요."
+      },
+      "cvv": "CVV",
+      "paypal": "Paypal로 지불하기",
+      "information": "지불 정보",
+      "country": "나라",
+      "state": "도",
+      "address": "주소",
+      "code": "우편번호",
+      "buying": "구입정보:",
+      "perMonth": "달별",
+      "limit": "사인을 요청하는 회수의 제한",
+      "upgrade": "플랜을 업그레이드하기",
+      "clicking": "”플랜을 업그레이드하기”를 클릭하는 것으로 동의 하는것이 됩니다.",
+      "terms": "회원규약",
+      "modal": {
+        "title": "플랜이 업그레이드되었습니다.",
+        "commentsLeft": "업그레이드 해 주셔서 감사합니다.",
+        "commentsRight": "더이상 필요하지 않을시에는 언제든지 다운그레이드 가능합니다.",
+        "button": "시작"
+      },
+      "position": "우상향",
+      "subscription": "매달 서브스크립션",
+      "select": "나라 선택",
+      "region": "지역 선택",
+      "month": "달",
+      "year": "년",
+      "placeholder": {
+        "cvv": "CVV",
+        "first": "이름",
+        "last": "성"
+      }
+    }
+  },
+  "profile": {
+    "account": {
+      "title": "개인정보",
+      "avatar": "이미지 변경",
+      "networks": "소셜네트워크에 연결",
+      "password": "비밀번호 변경",
+      "header": "회사명과 업무 타이틀",
+      "error": {
+        "first": "이름을 입력해 주세요",
+        "last": "성을 입력해 주세요"
+      },
+      "update": "업그레이드",
+      "save": "변경을 보존하기",
+      "purpose": "사용목적",
+      "employee": "사원수",
+      "industry": "업종선택",
+      "placeholder": {
+        "first": "이름",
+        "last": "성",
+        "company": "회사",
+        "job": "업무 타이틀",
+        "current": "현재 비밀번호*",
+        "new": "신규 비밀번호*",
+        "confirm": "신규 비밀번호 확인*"
+      }
+    },
+    "brinding": {
+      "title": "커스텀 브랜딩",
+      "header": "사인을 요청하는 사람의 정보 - 커스터마이즈 가능",
+      "edit": "이름변경",
+      "cancel": "취소",
+      "save": "변경 내용을 보존하기",
+      "style": "메일 스타일 커스텀 브랜딩",
+      "comments": "이 기능은 사인 신청 메일시 로그, 이미지, 스타일, 소개 페이지를 변경할수 있습니다.(카카오는 대응하지 않습니다.)",
+      "more": "더 보기",
+      "iamge": "로고 이미지",
+      "cahnge": "로고를 변경하기",
+      "link": "로고 링크",
+      "tooltip": "____",
+      "explanation": "설명",
+      "color": {
+        "color": "탑 버튼색",
+        "button": "버튼색",
+        "text": "버튼의 글자색"
+      },
+      "fields": "필드 수정",
+      "signed": "간단하게 전자사인가능합니다.",
+      "sign": "사인을 할때 입니다.",
+      "information": "사인정보를 확인해 주세요",
+      "press": "사인하기 위해서 아래의 버튼을 눌러주세요",
+      "document": "문서명:",
+      "contract": "정직한 계약서",
+      "content": "확인후 사인하기",
+      "amet": "계속 좋게하기",
+      "share": "메일로는 링크를 보내지 말아 주세요",
+      "docText": "이 링크를 쉐어하면, 모르는 사람이 사인할 가능성이 있습니다.",
+      "replying": "이 메일주소는 송신전용으로,  답장을 받을 수 없습니다.",
+      "footer": "질문등은 커스터머 서비스로 부탁 드리겠습니다.© 2019. Coffeesign Inc. All rights reserved. 회원규약"
+    }
+  },
+  "sign": {
+    "check": {
+      "documents": "문서",
+      "amet": "화일명.doc",
+      "later": "나중에 사인하기",
+      "start": "사인하기"
+    },
+    "complition": {
+      "title": "모든 사인이 완료되었습니다.",
+      "content": "이력을 포함한 인증서를 메일로 보냈습니다. 첨부화일과 메일안의 사인을 확인해 주세요.",
+      "home": "메인페이지로"
+    },
+    "signing": {
+      "arrow": "누가사인하는지?",
+      "later": "나중에 사인하기",
+      "finish": "사인하기",
+      "modal": {
+        "title": "모든 사인을 인정하기",
+        "electronic": "전자사인은 법률적 효력이 있는 것을 인정하기",
+        "accepted": "모든 사인이 완료되면 원본으로 인정하기",
+        "signatures": "모든 사이너가 전자사인을 할수 있는 권리가 있음을 인정합니다.",
+        "accordance": "전자사인의 효력을 인정하기",
+        "term": "회원규약",
+        "text": "그리고 전자사인",
+        "privacy": "개인정보 보호방침",
+        "agree": "동의하고 사인하기",
+        "minutes": "조금 기다려 주세요",
+        "process": "1-3분정도 걸립니다."
+      }
+    }
+  },
+  "signature": {
+    "title": "사인과 도장",
+    "header": "당신의 사인",
+    "comments": "사인을 더 추가하고 싶은 경우에는 아래의 버튼을 클릭해 주세요.",
+    "signature": "사이너를 추가하기",
+    "edit": "수정",
+    "download": "다운로드",
+    "delete": "삭제",
+    "stamp": "당신의 도장",
+    "click": "도장을 더 추가하고 싶은 경우에는 아래의 버튼을 클릭해 주세요.",
+    "more": "도장을 추가하기",
+    "modal": {
+      "title": "사인을 만들기",
+      "draw": "그리기",
+      "type": "타입",
+      "upload": "업로드",
+      "signature": "사인을 그리기",
+      "initials": "이니셜을 그리기",
+      "reset": "리셋",
+      "replace": "교환",
+      "remove": "삭제",
+      "uploadInitials": "이니셜을 업로드",
+      "summary": "작성을 클릭하는것으로 전자사인과, 전자이니셜이 자신의 사인으로 사용되는것을 인정합니다.",
+      "create": "작성",
+      "stamp": "도장을 만들기",
+      "seal": "개인 도장",
+      "sea": "회사의 도장",
+      "uploadStamp": "도장을 업로드해 주세요",
+      "text": "추가를 클릭하는 것으로 전자도장이 자신의 도장으로 사용되는 것으로 인전합니다.",
+      "adding": "추가"
+    },
+    "placeholder": "이름을 입력하고 만들기 버튼을 누르기"
+  },
+  "containers": {
+    "aside": {
+      "today": "오늘",
+      "with": "와 만나기",
+      "lucas": "정직한",
+      "palo": "서울시 강남구",
+      "skype": "와Skype하기",
+      "megan": "정직한",
+      "online": "온라인",
+      "tomorrow": "내일",
+      "project": "신규UI프로젝트",
+      "deadline": "데드라인",
+      "creative": "회사명",
+      "startups": "스탠드업가든",
+      "meetup": "와 만나기",
+      "team": "팀 미팅",
+      "lukasz": "정직한",
+      "amet": "____",
+      "incididunt": "____",
+      "settings": "설정",
+      "option": "액션",
+      "aliqua": "_____",
+      "disabled": "옵션을 무효화 하기",
+      "utilization": "시스템 사용",
+      "cpu": "CPU사용",
+      "cores": "348프로세스 1/4코어",
+      "memory": "메모리 사용",
+      "usage": "사용"
+    },
+    "dropdown": {
+      "title": "당신의 드롭다운",
+      "one": "하나",
+      "two": "둘",
+      "three": "셋"
+    }
+  },
+  "aside": "Aside"
+}

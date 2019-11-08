@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="pencil_" width="16.001" height="16" data-name="pencil" viewBox="0 0 16.001 16">
+    <defs>
+        <style>
+            .cls-1{fill:#9ea0a5}
+        </style>
+    </defs>
+    <g id="Group_3" data-name="Group 3">
+        <path id="Path_3" d="M0 84.867v4.318h4.318l8.636-8.635-4.318-4.318zm3.768 2.989H2.657v-1.328H1.329v-1.111l.945-.944 2.439 2.439zM8.968 78a.2.2 0 0 1 .228.228.24.24 0 0 1-.073.177L3.5 84.027a.241.241 0 0 1-.176.073.2.2 0 0 1-.228-.228.241.241 0 0 1 .073-.177l5.626-5.625a.24.24 0 0 1 .173-.07z" class="cls-1" data-name="Path 3" transform="translate(0 -73.185)"/>
+        <path id="Path_4" d="M261.857 2.823L259.418.394a1.289 1.289 0 0 0-.945-.394 1.233 1.233 0 0 0-.934.394l-1.723 1.713 4.318 4.318 1.723-1.725a1.271 1.271 0 0 0 .384-.934 1.33 1.33 0 0 0-.384-.943z" class="cls-1" data-name="Path 4" transform="translate(-246.24)"/>
+    </g>
+</svg>

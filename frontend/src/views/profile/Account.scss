@@ -1,0 +1,206 @@
+#account{
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 650px) {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: self-start;
+    }
+    .user-happy {
+      display: flex;
+      align-items: center;
+      max-width: 700px;
+      .user-name {
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 1.31;
+        color: #2e221e;
+      }
+      .avatar-tag {
+        width: 120px;
+        height: 120px;
+        min-width: 120px;
+        border-radius: 50%;
+        background: #8a6454;
+        color: white;
+        font-size: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        .avatar-profile {
+          min-width: 120px; 
+          width: 100%; 
+          height: auto
+        }
+        .change-avatar {
+          position: absolute;
+          bottom: 0;
+          text-align: center;
+          font-size: 0.8rem;
+          height: 1.5rem;
+          background: rgba(0,0,0,.54);
+          width: 100%;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .user-connection {
+      text-align: left;
+      .connect-social {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.56;
+        color: #2e221e;
+      }
+      .socials {
+        margin-top: 30px;
+        @media (max-width: 640px) {
+          margin-top: 10px;
+        }
+        .social-link {
+          width: 40px;
+          height: 40px;
+          @media (max-width: 640px) {
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+      @media (max-width: 640px) {
+        margin-left: 105px;
+        margin-top: 30px;
+      }
+    }
+  }
+}
+
+#change-password-modal{
+  .modal-dialog {
+    width: 400px;
+    
+    @media (max-width: 600px) {
+      width: unset;
+    }
+    .change-password-modal {
+      padding: 30px;
+      padding-top: 0;
+      background: white;
+      
+      @media (max-width: 600px) {
+        padding: 20px;
+        padding-top: 0;
+      }
+      .title {  
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 1.35;
+        text-align: center;
+        color: #41302a;
+        margin-bottom: 25px;
+        margin-top: 25px;
+      }
+      .agree-items {
+        .agree-item {
+          margin-bottom: 30px;
+          display: flex;
+          .agree-text {
+            font-size: 16px;
+            line-height: 1.38;
+            text-align: left;
+            color: #9ea0a5;
+            button {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+#change-avatar-modal{
+  .modal-dialog {
+    width: 600px;
+    
+    @media (max-width: 600px) {
+      width: unset;
+    }
+    .change-avatar-modal {
+      padding: 30px;
+      padding-top: 0;
+      background: white;
+      
+      @media (max-width: 600px) {
+        padding: 20px;
+        padding-top: 0;
+      }
+      .title {  
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 1.35;
+        text-align: center;
+        color: #41302a;
+        margin-bottom: 25px;
+        margin-top: 25px;
+      }
+      .img-control-btns {
+        display: flex;
+        justify-content: space-between;
+      }
+      .avatars {
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid #e4e7ea;
+        border-radius: 5px;
+        .avatar {
+          min-width: 100px;
+          min-height: 100px;
+
+          margin: 5px;
+
+          border-radius: 50%;
+          border: 1px solid #e4e7ea;
+          cursor: pointer;
+
+          &:hover {
+            box-shadow: 0 0 3px 0 #775649;
+          }
+        }
+        .selected {
+          border: solid 2px red;
+        }
+
+      }
+    }
+  }
+}
+
+.form-group-withicon {
+  .form-control {
+    padding-left: 3.2rem;
+  }
+  svg {
+    color: #9EA0A5;
+    position: absolute;
+    margin-top: -2.25rem;
+    margin-left: 1.2rem;
+  }
+  div.eye {
+    position: absolute;
+    // margin-top: -2.25rem;
+    right: 2.25rem;
+    svg {
+      position: relative !important;
+      margin-left: 0;
+    }
+  }
+}
+
+.form-group-withicon .password {
+  padding-right: 3.2rem;
+}

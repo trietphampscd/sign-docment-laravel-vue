@@ -1,0 +1,54 @@
+.folder-items{
+  padding-left: 7px;
+  .folder-item {
+    .folder-name{
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      i.fa {
+        margin-right: 5px;
+      }
+      .btn{
+        height: unset;
+      }
+      .folder-menu {
+        display: none;
+      }
+      .space-div {
+        margin-right: 10.5px;
+      }
+      &:hover {
+        cursor: pointer;
+        background-color: rgba(243, 242, 242, 0.055);
+        border-color: rgba(243, 242, 242, 0.055);
+        .folder-menu {
+          display: inline;
+          color: #aaa5a2;
+          &:hover {
+            color: white;
+          }
+        }
+      }      
+      .toggle-icon {
+        font-size: 0.6rem;
+        transition: transform 0.25s linear;
+        -webkit-transition: -webkit-transform 0.25s linear;
+      }
+
+    }
+    .active-color{
+      color: blue !important
+    }
+    .dis-folder{
+      display: none;
+    }
+  }
+  
+  .folder-name[aria-expanded="true"] {
+    .toggle-icon {
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+    }
+  }
+}

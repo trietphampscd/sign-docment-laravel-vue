@@ -1,0 +1,32 @@
+// Authentication
+export const AUTH_CHECK     = 'authCheck'
+export const AUTH_ERROR     = 'authError'
+export const AUTH_MODAL_BTN = 'authModalBtn'
+export const AUTH_REQUEST   = 'authRequest'
+export const AUTH_SUCCESS   = 'authSuccess'
+export const AUTH_SET_FB    = 'authSetFB'
+
+// FirstDocuSign
+export const CHECK_CLIENT 		= 'CHECK_CLIENT'
+export const RECIPIENTS_ADD 	= 'RECIPIENTS_ADD'
+export const RECIPIENTS_UPDATE 	= 'RECIPIENTS_UPDATE'
+export const RECIPIENTS_REMOVE 	= 'RECIPIENTS_REMOVE'
+export const GET_EMAIL_CLIENT 	= 'GET_EMAIL_CLIENT'
+export const GET_DOCS 			= 'GET_DOCS'
+
+//REVIEW_SEND_REQUEST
+export const REVIEW_SEND_REQUEST = "REVIEW_SEND_REQUEST"
+
+//USER_PROFILE
+export const CHANGE_IMAGE_REQUEST	= "CHANGE_IMAGE_REQUEST"
+export const GET_USER_INFOR_REQUEST	= "GET_USER_INFOR_REQUEST"
+
+//FOLDER
+export const FOLDER_GET_REQUEST = "FOLDER_GET_REQUEST"
+export const FOLDER_ADD_REQUEST = "FOLDER_ADD_REQUEST"
+export const FOLDER_RENAME_REQUEST = "FOLDER_RENAME_REQUEST"
+export const FOLDER_DELETE_REQUEST = "FOLDER_DELETE_REQUEST"
+export const FOLDER_MOVE_REQUEST = "FOLDER_MOVE_REQUEST"
+
+//KAKAO_REQUEST
+export const GET_FRIENDS_KAKAO_REQUEST = "GET_FRIENDS_KAKAO_REQUEST"

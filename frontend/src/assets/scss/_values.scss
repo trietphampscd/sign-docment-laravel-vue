@@ -1,0 +1,15 @@
+$breakpoints: (
+  'sm': (min-width: 576px),
+  'md': (min-width: 768px),
+  'lg': (min-width: 992px),
+  'xl': (min-width: 1200px),
+);
+
+$fontsize-1: 48px;
+$fontsize-2: 36px;
+$fontsize-3: 26px;
+$fontsize-4: 18px;
+$fontsize-5: 16px;
+$fontsize-6: 14px;
+$fontsize-7: 12px;
+$fontsize-base: 14px;

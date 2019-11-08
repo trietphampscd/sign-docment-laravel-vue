@@ -1,0 +1,97 @@
+.tabs {
+  .nav-tabs {
+    .nav-item {
+      .nav-link {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.36;
+        color: #9ea0a5;
+      }
+      .active {
+        color: #ef634c;
+        background-color: #fff;
+        border: none;
+        border-bottom: solid 2px #ef634c;
+      }
+    }
+  }
+  .tab-content {
+    .tab-pane {
+      padding: 30px 0 0 0;
+    }
+    border: none;
+    border-top: solid 1px #ebebeb;
+  }
+}
+.plan-card {
+  padding: 20px;
+  // max-width: 265px;
+  .plan-card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 40px;
+    .plan-title {
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 1.31;
+      color: #775649;
+      display: flex;
+      align-items: center;
+    }
+    .price {
+      min-width: 55.5px;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.31;
+      color: #775649;
+    }
+  }
+  .limit-for-sending {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.31;
+    color: #2e221e;
+  }
+  .limit-times {
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ef634c;
+  }
+}
+
+
+#done-modal {
+  @media (min-width: 620px) {
+    .modal-dialog {
+      max-width: 605px;
+      margin: 1.75rem auto;
+    }
+    .modal-content {
+      width: 605px;
+    }
+  }
+}
+.done-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 55px;
+  padding-top: 2px;
+  img {
+    margin-bottom: 25px;
+  }
+  .you-done {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.35;
+    text-align: center;
+    color: #41302a;
+    margin-bottom: 30px;
+  }
+}
+.modal-header {
+  border-bottom: none;
+}

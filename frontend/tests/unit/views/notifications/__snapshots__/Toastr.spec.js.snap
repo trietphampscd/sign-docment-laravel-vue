@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toastr.vue renders correctly 1`] = `
+<div
+  class="animated fadeIn"
+>
+  <bcard-stub
+    bodytag="div"
+    footertag="div"
+    headertag="div"
+    show-footer=""
+    subtitletag="h6"
+    tag="div"
+    titletag="h4"
+  >
+    <div
+      slot="header"
+    >
+      <i
+        class="icon-info"
+      />
+       Toastr
+      
+      <a
+        class="badge badge-danger ml-1"
+        href="https://coreui.io/pro/vue/"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        CoreUI Pro
+      </a>
+       
+      <div
+        class="card-header-actions"
+      >
+        <a
+          class="card-header-action"
+          href="https://github.com/se-panfilov/vue-notifications"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          <small
+            class="text-muted"
+          >
+            docs
+          </small>
+        </a>
+      </div>
+    </div>
+     
+    <bbutton-stub
+      activeclass="active"
+      class="mr-1"
+      event="click"
+      exactactiveclass="active"
+      routertag="a"
+      target="_self"
+      type="button"
+      variant="success"
+    >
+      Success
+    </bbutton-stub>
+     
+    <bbutton-stub
+      activeclass="active"
+      class="mr-1"
+      event="click"
+      exactactiveclass="active"
+      routertag="a"
+      target="_self"
+      type="button"
+      variant="info"
+    >
+      Info
+    </bbutton-stub>
+     
+    <bbutton-stub
+      activeclass="active"
+      class="mr-1"
+      event="click"
+      exactactiveclass="active"
+      routertag="a"
+      target="_self"
+      type="button"
+      variant="warning"
+    >
+      Warning
+    </bbutton-stub>
+     
+    <bbutton-stub
+      activeclass="active"
+      class="mr-1"
+      event="click"
+      exactactiveclass="active"
+      routertag="a"
+      target="_self"
+      type="button"
+      variant="danger"
+    >
+      Error
+    </bbutton-stub>
+  </bcard-stub>
+</div>
+`;

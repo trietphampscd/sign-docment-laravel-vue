@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" viewBox="0 0 12 10">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="done-tick_1_" data-name="done-tick (1)" transform="translate(0 -34.292)">
+        <path id="Path_905" d="M11.549 34.862l-.321-.267a1.325 1.325 0 0 0-1.806.111L4.047 40.48l-1.623-1.354a1.325 1.325 0 0 0-1.806.109l-.284.3a1.227 1.227 0 0 0 .093 1.773L3.4 43.951a1.324 1.324 0 0 0 1.868-.1l6.417-7.223a1.228 1.228 0 0 0-.138-1.77z" class="cls-1" data-name="Path 905"/>
+    </g>
+</svg>

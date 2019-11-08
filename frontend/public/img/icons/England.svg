@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="15" viewBox="0 0 21 15">
+    <defs>
+        <style>
+            .cls-1{fill:#43458b}.cls-2{fill:#f6f9fc}.cls-3{fill:#e25950}
+        </style>
+    </defs>
+    <g id="England" transform="translate(-475 -35)">
+        <g id="Layer_1" data-name="Layer 1">
+            <path id="Path_110" d="M495.929 48.5H493.5V50h-16v-1.5h-2.429A1.967 1.967 0 0 1 475 48V37a1.966 1.966 0 0 1 .071-.5h2.429V35h16v1.5h2.429a1.964 1.964 0 0 1 .071.5v11a1.964 1.964 0 0 1-.071.5z" class="cls-1" data-name="Path 110"/>
+            <path id="Shape" d="M492.659 35H494a2 2 0 0 1 2 2v.454L492.629 40H496v5h-3.288L496 47.483V48a2 2 0 0 1-2 2h-1.258L488 46.419V50h-5v-3.581L478.258 50H477a2 2 0 0 1-2-2v-.517L478.288 45H475v-5h3.371L475 37.454V37a2 2 0 0 1 2-2h1.341L483 38.519V35h5v3.519z" class="cls-2"/>
+            <path id="Shape-2" d="M487 44v6h-3v-6h-9v-3h9v-6h3v6h9v3zm.5-3.5v-.218l6.929-5.233a1.99 1.99 0 0 1 1.138.722l-6.261 4.729zm-12.291-4.374a2 2 0 0 1 .9-.906l6.99 5.28H481zM483.5 44.5v.218l-6.929 5.233a1.99 1.99 0 0 1-1.138-.722l6.261-4.729zm12.291 4.374a2 2 0 0 1-.9.906l-6.99-5.28H490z" class="cls-3" data-name="Shape"/>
+        </g>
+    </g>
+</svg>

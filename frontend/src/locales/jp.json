@@ -1,0 +1,694 @@
+{
+  "May 1, 2019":"2019年5月1日",
+  "6:59:59 AM": "6:59:59 AM",
+  "Stamp": "切手",
+  "Signature": "署名",
+  "Full Name": "フルネーム",
+  "Company": "会社",
+  "Title": "タイトル",
+  "Text": "テキスト",
+  "Date Signed": "日付署名しました",
+  "Attachments": " 添付ファイル",
+  "Account": "アカウント",
+  "Pricing Plan": "料金プラン",
+  "Branding": "ブランディング",
+  "Logout": "ログアウト",
+  "Profile": "プロフィール",
+  "Add Documents": "Add Documents JP",
+  "We are happy to see you again Suzanne Thompson": "We are happy to see you again Suzanne Thompson JP",
+  "CoffeeSign even takes care reminding our clients": "CoffeeSign even takes care reminding our clients JP",
+  "Waiting for Others": "Waiting for Others JP",
+  "Upgrade to Standard plan": "Upgrade to Standard plan JP",
+  "Upgrade now and enjoy additional features": "Upgrade now and enjoy additional features JP",
+  "Click here to upgrade": "Click here to upgrade JP",
+  "SIGNATURE": "SIGNATURE JP",
+  "Replace": "Replace JP",
+  "Remove": "Remove JP",
+  "INITIALS": "INITIALS JP",
+  "STAMP": "STAMP JP",
+  "Upload Initials": "Upload Initials JP",
+  "Action Required": "Action Required JP",
+  "Needs to Sign": "サインする",
+  "Receives a copy": "コピーをもらう",
+  "Receives a Copy": "コピーをもらう",
+  "In personal signer": "サイナー",
+  "Purpose of using": "使う目的",
+  "Number of Employees": "社員数",
+  "Select Industry": "業種",
+  "My Personnel use": "私の従業員の使用",
+  "My Business": "マイビジネス",
+  "Accounting & Tax Accounting": "Accounting & Tax Accounting",
+  "Business Services / Consulting Business Services": "Business Services / Consulting Business Services",
+  "Construction - General Construction":"Construction - General Construction",
+  "Construction - Home Builder Real Estate - Construction":"Construction - Home Builder Real Estate - Construction",
+  "Debt Settlement Debt Settlement/Loan Modification":"Debt Settlement Debt Settlement/Loan Modification",
+  "Education Education":"Education Education",
+  "Financial Services - Banking Banking":"Financial Services - Banking Banking",
+  "Financial Services - Credit Unions Credit Unions":"Financial Services - Credit Unions Credit Unions",
+  "Financial Services - Other Financial Services":"Financial Services - Other Financial Services",
+  "Financial Services - Wealth & Asset Management Wealth Management":"Financial Services - Wealth & Asset Management Wealth Management",
+  "Government - City Government - City":"Government - City Government - City",
+  "Government - County Government - County":"Government - County Government - County",
+  "Government - Federal Government - National":"Government - Federal Government - National",
+  "Government - State Government - State":"Government - State Government - State",
+  "Healthcare - Health Plans & Payers Insurance - Health":"Healthcare - Health Plans & Payers Insurance - Health",
+  "Healthcare - Providers Healthcare - Providers":"Healthcare - Providers Healthcare - Providers",
+  "HR Staffing HR Staffing":"HR Staffing HR Staffing",
+  "Insurance - Agents / Brokers Insurance - Agency":"Insurance - Agents / Brokers Insurance - Agency",
+  "Insurance - Carriers Insurance - Carriers":"Insurance - Carriers Insurance - Carriers",
+  "Legal Legal":"Legal Legal",
+  "Life Sciences - Medical Devices Life Sciences - Medical Devices":"Life Sciences - Medical Devices Life Sciences - Medical Devices",
+  "Life Sciences - Other Life Sciences - Other":"Life Sciences - Other Life Sciences - Other",
+  "Life Sciences - Pharmaceuticals Life Sciences - Pharmaceuticals":"Life Sciences - Pharmaceuticals Life Sciences - Pharmaceuticals",
+  "Life Sciences - Wholesale Distributors Life Sciences - Wholesale/Distributor":"Life Sciences - Wholesale Distributors Life Sciences - Wholesale/Distributor",
+  "Manufacturing":"Manufacturing",
+  "Mortgage Broker Real Estate - Mortgage":"Mortgage Broker Real Estate - Mortgage",
+  "Not For Profit":"Not For Profit",
+  "Real Estate - Agent Real Estate - Agent":"Real Estate - Agent Real Estate - Agent",
+  "Real Estate - Broker/Owner Real Estate - Broker/Owner":"Real Estate - Broker/Owner Real Estate - Broker/Owner",
+  "Real Estate - Commercial Real Estate - Commercial":"Real Estate - Commercial Real Estate - Commercial",
+  "Real Estate - Property Management Real Estate - Property Management":"Real Estate - Property Management Real Estate - Property Management",
+  "Retail Retail":"Retail Retail",
+  "Sports & Entertainment Travel & Leisure":"Sports & Entertainment Travel & Leisure",
+  "Technology - General Technology":"Technology - General Technology",
+  "Technology - Startup Technology":"Technology - Startup Technology",
+  "Telecommunications":"Telecommunications",
+  "Other":"Other",
+  "auth": {
+    "signintitle": "お帰りなさい！",
+    "signinsubtitle": "CoffeeSignの新機能",
+    "signinsubtitle2": "アカウントを作成する。",
+    "socincomment": "または、次の方法でサインインできます。",
+
+    "signup": "アカウントを作成する",
+    "signupsubtitle": "すでにCoffeeSignアカウントをお持ちですか？",
+    "signupsubtitle2": "サインイン",
+    "tnc": "続行することにより、",
+    "tnc2": "利用規約",
+    "tnc3": "そして",
+    "tnc4": "個人情報保護方針",
+    "socupcomment": "または、次の方法でサインアップできます。",
+
+    "forgottitle": "パスワードをお忘れですか？",
+    "forgotsubtitle": "戻る",
+    "forgotsubtitle2": "サインイン",
+    "forgotdesc": "登録したメールアドレスにパスワードリセットリンクが届きます。このリンクは10分間有効です。",
+
+    "resettitle": "あなたのパスワードをリセット",
+
+    "carousel": {
+      "title": "CoffeeSignとは何ですか？",
+      "subtitle": "CoffeeSignは、ビジネスの成長を促進する3ステップの電子署名サービスです。",
+      "subtitle2": "時間とお金を節約してください。"
+    },
+    "input": {
+      "firstname": "あなたの下の名前",
+      "lastname": "あなたの名字",
+      "email": "メールアドレス",
+      "password": "パスワード",
+      "confirmpass": "パスワードを認証する",
+      "remember": "私を覚えてますか",
+      "forgot": "パスワードをお忘れですか？"
+    },
+    "error": {
+      "email": "有効なメールアドレスを入力してください",
+      "password1": "パスワードは6〜12文字である必要があります",
+      "password2": "パスワードには少なくとも1つの小文字を含める必要があります",
+      "password3": "パスワードには少なくとも1つの大文字が含まれている必要があります",
+      "password4": "パスワードには少なくとも1つの数字が含まれている必要があります",
+      "password5": "パスワードには少なくとも1つの特殊文字が含まれている必要があります"
+    },
+    "button": {
+      "signin": "サインイン",
+      "signup": "サインアップして開始する",
+      "submit": "提出する",
+      "resetpass": "パスワードを再設定する"
+    },
+    "modal": {
+      "errorlogin": "ログイン中にエラーが発生しました。",
+      "errorsocial": "ソーシャルログイン中にエラーが発生しました。",
+      "errorsocialsignup": "ソーシャルサインアップ中にエラーが発生しました"
+    }
+  },
+
+
+    "home": {
+    "title": "コーヒーサインへようこそ！",
+    "subtitle": "高橋　ヒメ",
+    "comments": "コーヒサインは、すべてのクライアントのことを大切にしています。",
+    "user": {
+      "action": {
+        "typeLeft": "サインが必要",
+        "typeRight": "相手のサインを待っている。"
+      },
+      "plan": {
+        "title": "スタンダードプランにアップグレード",
+        "comments": "アップグレードで、制限なく使えます。",
+        "click": "アップグレードはこちらへ。"
+      }
+    },
+    "profile": {
+      "title": "プロフィールを完成",
+      "comments": "Lorem ipsum dolor sit amet, ea meis fabellas nam, movet contentiones te eum.",
+      "button": "もっと見る。"
+    },
+    "signature": "サイン",
+    "replace": "入替",
+    "remove": "削除",
+    "initials": "イニシアル",
+    "st": "ST",
+    "stamp": "判子",
+    "upload": "イニシアルアップロード",
+    "drag": {
+      "title": "ここにファイルをドラッグするか、アップロードするファイルを「参照」します。",
+      "title_1": "ここにファイルをドラッグするか、アップロードするファイルを",
+      "title_2": "参照",
+      "title_3": "します。",
+      "subtitle": "或いは、以下のオプションが使えます：",
+      "comments": "或いは、テンプレートが使えます。",
+      "button": "テンプレートへ"
+    }
+  },
+  "layout": {
+    "button": "プランをアップグレード",
+    "hello": "高橋",
+    "logout": "ログアウト",
+    "footer": "全著作権所有。",
+    "payment": {
+      "sidebar": {
+        "button": "サインをする",
+        "account": "アカウント",
+        "signature": "サイン",
+        "pricing": "料金プラン",
+        "branding": "ブランディング"
+      },
+      "header": {
+        "comments": "今のプラン：",
+        "icon": "フリー",
+        "documents": "ドキュメント",
+        "templates": "テンプレート"
+      }
+    },
+    "documents": {
+      "sidebar": {
+        "button": "キャンセル"
+      },
+      "header": {
+        "upload": "ドキュメントアップロード",
+        "recipients": "相手を追加",
+        "prepare": "サインの用意",
+        "review": "復習"
+      },
+      "modal": {
+        "title": "ようこそ",
+        "subtitle": "簡単で使いやすい電子サインが利用可能です。",
+        "summary": "５回まではただで使えます。",
+        "more": "1000以上",
+        "error": {
+          "name": {
+            "first": "名前を入力してください。",
+            "last": "名字を入力してください。"
+          },
+          "purpose": "使用目的を選択してください",
+          "company": "会社を入力してください",
+          "employee": "従業員を選択してください",
+          "title": "役職を入力してください",
+          "industry": "業界を選択してください"
+        },
+        "purpose": "使う目的",
+        "employee": "社員数",
+        "industry": "業種",
+        "button": "スタート",
+        "array": [
+          "業種",
+          "Accounting &amp; Tax Accounting",
+          "Business Services / Consulting Business Services",
+          "Construction - General Construction",
+          "Construction - Home Builder Real Estate - Construction",
+          "Debt Settlement Debt Settlement/Loan Modification",
+          "Education Education",
+          "Financial Services - Banking Banking",
+          "Financial Services - Credit Unions Credit Unions",
+          "Financial Services - Other Financial Services",
+          "Financial Services - Wealth &amp; Asset Management Wealth Management",
+          "Government - City Government - City",
+          "Government - County Government - County",
+          "Government - Federal Government - National",
+          "Government - State Government - State",
+          "Healthcare - Health Plans &amp; Payers Insurance - Health",
+          "Healthcare - Providers Healthcare - Providers",
+          "HR Staffing HR Staffing",
+          "Insurance - Agents / Brokers Insurance - Agency",
+          "Insurance - Carriers Insurance - Carriers",
+          "Legal Legal",
+          "Life Sciences - Medical Devices Life Sciences - Medical Devices",
+          "Life Sciences - Other Life Sciences - Other",
+          "Life Sciences - Pharmaceuticals Life Sciences - Pharmaceuticals",
+          "Life Sciences - Wholesale Distributors Life Sciences - Wholesale/Distributor",
+          "Manufacturing",
+          "Mortgage Broker Real Estate - Mortgage",
+          "Not For Profit",
+          "Real Estate - Agent Real Estate - Agent",
+          "Real Estate - Broker/Owner Real Estate - Broker/Owner",
+          "Real Estate - Commercial Real Estate - Commercial",
+          "Real Estate - Property Management Real Estate - Property Management",
+          "Retail Retail",
+          "Sports &amp; Entertainment Travel &amp; Leisure",
+          "Technology - General Technology",
+          "Technology - Startup Technology",
+          "Telecommunications",
+          "Other"
+        ],
+        "nav": [
+          "高橋　ゆめ",
+          "稲垣　直人",
+          "稲垣　直人"
+        ]
+      }
+    },
+    "sign": {
+      "check": "ドキュメントをクリックいてください。",
+      "signing": "サイン",
+      "complition": "完成",
+      "sign": {
+        "later": "後でサインする",
+        "start": "サインする"
+      },
+      "finishLater": "後で完了する",
+      "finish": "完了する,"
+    }
+  },
+  "docsign": {
+    "next": "次へ",
+    "back": "戻る",
+    "send": "送る",
+    "lorem": "教務委託契約書.doc",
+    "documents": "ドキュメント",
+    "efficiantur": "教務委託契約書.pdf",
+    "sign": "サインする",
+    "copy": "コピーをもらう",
+    "view": "見る",
+    "document": {
+      "title": "ドキュメント追加",
+      "checkbox": "自分だけサインする"
+    },
+    "recipients": {
+      "title": "受ける人",
+      "button": {
+        "email": "メールを送る",
+        "talk": "ラインで送る"
+      },
+      "password": "パスワードをセットする",
+      "placeholder": {
+        "recipient": "サインする相手の名前*",
+        "email": "メールアドレス*",
+        "password": "パスワード*",
+        "confirm": "パスワード確認"
+      },
+      "recipient": "相手を追加"
+    },
+    "prepare": {
+      "title": "ドキュメントを用意",
+      "arrow": "どなたがサインしますか？"
+    },
+    "review": {
+      "review": "レビューして送る",
+      "title": "TO: すべてのサイナーへ",
+      "subtitle": "メールのタイトル",
+      "email": "メール本文",
+      "input_email_sub_1":"Coffeesign.ioからの", 
+      "input_email_sub_2":"の署名要求",
+      "input_message_1":"議論したように、親切に文書を見て署名してください",
+      "input_message_2":"ありがとう。",
+      "placeholder": {
+        "coffeeSign": "コーヒーサインしてください。",
+        "message": "メッセージを入力してください。"
+      },
+      "expiration": "有効期限",
+      "request": {
+        "expire": "有効期限で設定したい日：",
+        "scheduled": "有効期限満了日",
+        "at": ""
+      },
+      "documents": "ドキュメント",
+      "recipients": "サインする相手",
+      "roger": "木村　たくや",
+      "barrett": "ジーカン　ジョン",
+      "william": "意味　けん",
+      "signer": "サイナー",
+      "comments": "サインのリクエストが終わると、サインする方の方にメール・ラインが届きます。",
+      "modal": {
+        "title": "完了",
+        "comments": "コーヒーサインをご利用いただき、ありがとうございます。すべてのサインが終わると、貴方の方にメールが届きます。 ",
+        "button": "メインページへ"
+      }
+    }
+  },
+  "payment": {
+    "document": {
+      "title": "ドキュメントリスト",
+      "placeholder": "検索はこちらへ",
+      "status": "サインのステータス：",
+      "completed": "完了",
+      "improvement": "上々に改善する。",
+      "name": "木村　たくや",
+      "table": {
+        "document": "ドキュメントのタイトル",
+        "status": "ステータス",
+        "change": "最終編集日",
+        "action": "アクション",
+        "selected": "選択済み",
+        "delete": "選択済み",
+        "me": "自分へ",
+        "scott": "木村　たくや",
+        "hannah": "しみ　けん"
+      },
+      "dropdown": {
+        "copy": "コピーをする",
+        "save": "テンプレートとしてセーブする",
+        "history": "履歴",
+        "export": "CSVでエクスポト",
+        "delete": "削除"
+      },
+      "collapse": {
+        "sign": "サインを待つ",
+        "pages": "ページ"
+      },
+      "per": "ページ目",
+      "period": "日付"
+    },
+    "pricing": {
+      "title": "料金プラン",
+      "header": "パーソナルモンスリープラン",
+      "mastercard": "マスターカード",
+      "payment": "次の支払い日",
+      "available": "可能：",
+      "history": "支払い履歴",
+      "date": "日付",
+      "type": "タイプ",
+      "transaction" :"取引",
+      "amount": "金額",
+      "receipt": "レシート",
+      "invoice": "インボイス",
+      "view": "PDFを見る",
+      "button": "インボイスをもっと見る",
+      "modal": {
+        "method": "支払い方法を変える",
+        "card": "クレジット・デビットカード番号",
+        "month": "有効期限（月）",
+        "year": "有効期限（年）",
+        "name": {
+          "first": "名前",
+          "last": "名字"
+        },
+        "address": "クレジットカードに登録された住所",
+        "placeholder": "クレジットカードに登録された住所を入力してください。",
+        "code": "郵便番号",
+        "country": "国",
+        "revert": "戻す",
+        "save": "保存"
+
+      },
+      "credit": "クレジットカード",
+      "select": "国選択"
+    },
+    "template": {
+      "title": "テンプレート",
+      "placeholder": "検索はこちらへ",
+      "table": {
+        "subject": "タイトル",
+        "created": "最初作成時間",
+        "change": "最後変更時間",
+        "used": "使用回数",
+        "type": "タイプ",
+        "auther": "作成者",
+        "action": "アクション"
+      },
+      "dropdown": {
+        "preview" :"プレビュー",
+        "send": "サインをリクエストする",
+        "edit": "テンプレートを修正する",
+        "share": "他の人とテンプレートを共有する"
+      },
+      "per": "ページ毎",
+      "modal": {
+        "title": "XXXテンプレートを他のユーザーに共有しますか？",
+        "button": "テンプレートを共有する"
+      },
+      "inquiry": "要請",
+      "report": "レポート",
+      "tag": "タグ",
+      "proposed": "お勧めのタグ",
+      "example": "お勧めのタグの例",
+      "official": "オフィシャル",
+      "shared": "共有",
+      "mine": "自分のテンプレート"
+    },
+    "upgrade": {
+      "titleLeft": "アップグレード",
+      "titleRight": "プラン",
+      "annual": "年毎",
+      "monthly": "月毎",
+      "month": "月毎",
+      "user": "ユーザー毎",
+      "annually": "年毎に",
+      "limit": "サインをリクエストする回数の制限",
+      "button": "プランをキャンセル",
+      "free": "フリー",
+      "personnel": "個人利用",
+      "standard": "ステンダード",
+      "pro": "プロー",
+      "total": "トータル回数",
+      "noLimit": "制限なし"
+    },
+    "upgradeTo": {
+      "title": "アップグレード",
+      "header": "支払い情報",
+      "label": "クレジット・デビットカード番号",
+      "error": {
+        "card": "カード番号を入力してください。",
+        "cvv": "CVV番号を入力してください。",
+        "first": "名前を入力してください。",
+        "last": "名字を入力してください。",
+        "state": "都道府県を入力してください。",
+        "address": "住所を入力してください。",
+        "code": "郵便番号を入力してください。"
+      },
+      "cvv": "CVV",
+      "paypal": "Paypalで支払う",
+      "information": "支払い情報",
+      "country": "国",
+      "state": "都道府県",
+      "address": "住所",
+      "code": "郵便番号",
+      "buying": "購入するのは：",
+      "perMonth": "月毎",
+      "limit": "サインをリクエストする回数の制限",
+      "upgrade": "プランをアップグレードする",
+      "clicking": "”プランをアップグレードする”をクリックすることで、同意することになります。",
+      "terms": "会員規約",
+      "modal": {
+        "title": "プランがアップグレードされました。",
+        "commentsLeft": "アップグレードして頂き、ありがとうございます。",
+        "commentsRight": "必要でなくなった時に、いつでもダウングレードできます。",
+        "button": "スタート"
+      },
+       "position": "右上",
+      "subscription": "月のサブスクリプション",
+      "select": "国選択",
+      "region": "地域選択",
+      "month": "月",
+      "year": "年",
+      "placeholder": {
+        "cvv": "CVV",
+        "first": "名前",
+        "last": "名字"
+      }
+    }
+  },
+  "profile": {
+    "account": {
+      "title": "個人情報",
+      "avatar": "イメージ変更",
+      "otheravatar": "アバターをアップロード",
+      "otheravatarsubtitle": "新しいアバターをアップロードします。",
+      "networks": "ソーシャルネットワークを繋ぐ",
+      "password": "パスワードを変更",
+      "header": "会社名及びジョブタイトル",
+      "error": {
+        "first": "名前を入力してください。",
+        "last": "名字を入力してください。",
+        "purpose": "使用目的を選択してください",
+        "company": "会社を入力してください",
+        "employee": "従業員を選択してください",
+        "job": "役職を入力してください",
+        "industry": "業種を選択してください"
+      },
+      "update": "アップデート",
+      "save": "変更を保存する",
+      "cancel": "キャンセル",
+      "purpose": "使用目的",
+      "employee": "社員数",
+      "industry": "業種選択",
+      "placeholder": {
+        "firstname": "ファーストネーム",
+        "lastname": "苗字",
+        "purpose": "使用目的",
+        "company": "会社",
+        "employee": "就業者数",
+        "job": "ジョブタイトル",
+        "industry": "業種を選択",
+        "current": "現在パスワード*",
+        "new": "新規パスワード*",
+        "confirm": "新しいパスワードの確認*"
+      }
+    },
+    "brinding": {
+      "title": "カスタムブランディング",
+      "header": "サインのリクエストをする人の情報　ーカスタマイズ可能。",
+      "edit": "名前変更",
+      "cancel": "キャンセル",
+      "save": "変更を保存する",
+      "style": "メールスタイルーカスタムブランディング",
+      "comments": "この機能は、サイン申請メールのログ、イメージ、スタイル、紹介ページを変更することが可能です。（ラインではサポートしません）",
+      "more": "もっと見る。",
+      "iamge": "ロゴイメージ",
+      "cahnge": "ロゴを変更する",
+      "link": "ロゴリンク",
+      "tooltip": "＿＿＿＿＿",
+      "explanation": "説明",
+      "color": {
+        "color": "トップボタンの色",
+        "button": "ボタンの色",
+        "text": "ボタンのテキストの色"
+      },
+      "fields": "フィールドを修正",
+      "signed": "簡単にデジタルサインができます。",
+      "sign": "サインをする番です。",
+      "information": "サイン情報を確認したください。",
+      "press": "サインするための下のボタンを押してください。",
+      "document": "ドキュメント名：",
+      "contract": "木村　たくや　契約書",
+      "content": "確認して、サインする",
+      "amet": "時速的にインプループする",
+      "share": "メールでは、リンクは送らないでください。",
+      "docText": "このリンクをシェアすると、知らない人がサインする可能性があります。",
+      "replying": "このメールアドレスは送信専用のメールで、このメール宛に返事をすることはできません。",
+      "footer": "ご質問などはカスタマーケアまでお願いします。© 2019. Coffeesign Inc. All rights reserved. 会員規約"
+    }
+  },
+  "sign": {
+    "check": {
+      "documents": "ドキュメント",
+      "amet": "ファイル名.doc",
+      "later": "後でサインする",
+      "start": "サインする"
+    },
+    "complition": {
+      "title": "全てのサインが完了されました。",
+      "content": "履歴を含むcertificateをメールで送りました。添付のファイルととメールの中のサインをご確認ください。",
+      "home": "メインページ"
+    },
+    "signing": {
+      "arrow": "誰がサインするのか？",
+      "later": "後で完了する",
+      "finish": "完了する",
+      "modal": {
+        "title": "全てのサインを認める。",
+        "electronic": "電子サインは法理的な力があることを認める",
+        "accepted": "全てのサインが終わった後のドキュメントは原本として認められる。",
+        "signatures": "全てのサイナーが電子サインする権利があることを確認します。",
+        "accordance": "電子サインを効力を認める。",
+        "term": "会員規約",
+        "text": "そして、電子サイン",
+        "privacy": "個人情報保護方針",
+        "agree": "同意してサインする。",
+        "minutes": "少しお待ちください。",
+        "process": "１ー３分かかります。"
+      }
+    }
+  },
+  "signature": {
+    "title": "署名とスタンプ",
+    "headerSign": "署名とイニシャル",
+    "commentSign": "ここから署名/初期を追加します。",
+    "headerStamp": "あなたのスタンプ",
+    "commentStamp": "人事/法人シールを作成します。",
+    "modal": {
+      "titleSign": "署名を作成する",
+      "titleStamp": "スタンプを作成する",
+      "tab": {
+        "choose": "選ぶ",
+        "draw": "ドロー",
+        "type": "タイプ",
+        "upload": "アップロードする",
+        "personnelSeal": "人事",
+        "corporateSeal": "法人"
+      },
+      "drawSign": "署名を描く",
+      "drawInitials": "初期描画",
+      "uploadSign": "署名をアップロード",
+      "uploadInitials": "イニシャルをアップロード",
+      "uploadStamp": "スタンプをアップロード",
+      "placeholderFullname": "氏名を入力してください",
+      "placeholderInitials": "初期名を入力してください",
+      "placeholderStamp": "名前を入力し、生成ボタンを押します",
+      "signby": "コーヒー署名者： ",
+      "tncSign": "[作成]をクリックすることにより、署名（イニシャル）が、法的拘束力のある契約を含む封筒で使用する場合、すべての目的で署名とイニシャルを電子的に表現することに同意します。 紙の署名またはイニシャル。",
+      "tncStamp": "[追加]をクリックすることにより、私は、私（またはエージェント）が封筒（法的拘束力のある契約を含む）で使用する場合、すべての目的でスタンプが電子的な表現になることに同意します-ペンと紙のスタンプと同じです。",
+      "adding": "追加中"
+    },
+    "button": {
+      "addSign": "署名/イニシャルを追加",
+      "addStamp": "スタンプを追加",
+      "edit": "編集",
+      "download": "ダウンロード",
+      "setdefault": "デフォルト設定",
+      "default": "デフォルト",
+      "delete": "削除する",
+      "generate": "生む",
+      "create": "作成する",
+      "reset": "リセットする",
+      "replace": "交換",
+      "remove": "削除する",
+      "cancel": "キャンセル"
+    }
+  },
+  "containers": {
+    "aside": {
+      "today": "今日",
+      "with": "と会う",
+      "lucas": "木村",
+      "palo": "東京都渋谷",
+      "skype": "とSkypeする",
+      "megan": "拓也",
+      "online": "オンライン",
+      "tomorrow": "明日",
+      "project": "新規UIプロジェクト",
+      "deadline": "デットライン",
+      "creative": "会社名",
+      "startups": "スタートアップガーデン",
+      "meetup": "と会う",
+      "team": "チームMeeting",
+      "lukasz": "木村　拓也",
+      "amet": "＿＿＿＿＿",
+      "incididunt": "））））））",
+      "settings": "設定",
+      "option": "アプション",
+      "aliqua": "ーーーーーーーー",
+      "disabled": "オプションを無効にする",
+      "utilization": "システム使用",
+      "cpu": "CPU使用",
+      "cores": "348プロセス。1/4コア",
+      "memory": "メモリー使用",
+      "usage": "使用"
+    },
+    "dropdown": {
+      "title": "貴方のドロップダウン",
+      "one": "ひとつ",
+      "two": "二つ",
+      "three": "三つ"
+    }
+  },
+  "aside": "Aside"
+}

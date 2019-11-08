@@ -1,0 +1,24 @@
+image: node:10.15.3
+
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Deploy to test
+          deployment: test
+          script:
+            - pipe: atlassian/scp-deploy:0.3.3
+              variables:
+                USER: $DEPLOY_USER
+                SERVER: $SERVER
+                SSH_KEY: $DEPLOY_SSH_KEY
+                REMOTE_PATH: '/srv/www/repo'
+                LOCAL_PATH: '*'
+                EXTRA_ARGS: '-o StrictHostKeyChecking=no'
+            - pipe: atlassian/ssh-run:0.2.2
+              variables:
+                SSH_USER: $DEPLOY_USER
+                SERVER: $SERVER
+                COMMAND: '/opt/start_server.sh'
+                MODE: 'command'
+                SSH_KEY: $DEPLOY_SSH_KEY

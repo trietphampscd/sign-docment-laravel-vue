@@ -1,0 +1,21 @@
+// If you want to override variables do it here
+@import "./style/variables";
+
+// Import styles with default layout.
+// If you are going to use dark layout please comment next line
+@import "~@coreui/coreui-pro/scss/coreui";
+
+// Import styles with dark layout
+// If you want to use dark layout uncomment next line
+//@import "~@coreui/coreui-pro/scss/themes/dark/coreui-dark";
+
+// If you want to add something do it here
+@import "./style/custom_fr";
+
+// ie fixes
+@import "./style/ie-fix";
+
+@import "~vue-tel-input/dist/vue-tel-input.css";
+@import "~cxlt-vue2-toastr/dist/css/cxlt-vue2-toastr.css";
+
+@import "./style/document_fr.scss";	

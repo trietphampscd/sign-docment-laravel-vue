@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Cancel" width="10" height="10" viewBox="0 0 10 10">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="clear">
+        <path id="Path_537" d="M10 1L9 0 5 4 1 0 0 1l4 4-4 4 1 1 4-4 4 4 1-1-4-4z" class="cls-1" data-name="Path 537"/>
+    </g>
+</svg>

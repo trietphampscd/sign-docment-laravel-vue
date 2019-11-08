@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="50" viewBox="0 0 45 50">
+    <defs>
+        <style>
+            .cls-1{fill:#f6f4f3}.cls-2{fill:#d4c9c4}.cls-3{fill:#e5dfdc}.cls-4{fill:#ef634c}.cls-5{fill:#fff}
+        </style>
+    </defs>
+    <g id="Group_1463" data-name="Group 1463" transform="translate(6430 -12987)">
+        <g id="file_3_" data-name="file (3)" transform="translate(-6430 12987)">
+            <path id="Path_1196" d="M106.877 13.695v33.084A3.225 3.225 0 0 1 103.65 50H73.817a3.224 3.224 0 0 1-3.228-3.221V3.221A3.224 3.224 0 0 1 73.817 0h19.337z" class="cls-1" data-name="Path 1196" transform="translate(-70.589)"/>
+            <g id="Group_1459" data-name="Group 1459" transform="translate(8.891 21.009)">
+                <path id="Rectangle_344" d="M0 0h18.504v2.056H0z" class="cls-2" data-name="Rectangle 344"/>
+                <path id="Rectangle_345" d="M0 0h18.504v2.056H0z" class="cls-2" data-name="Rectangle 345" transform="translate(0 4.592)"/>
+                <path id="Rectangle_346" d="M0 0h18.504v2.056H0z" class="cls-2" data-name="Rectangle 346" transform="translate(0 9.184)"/>
+                <path id="Rectangle_347" d="M0 0h13.159v2.056H0z" class="cls-2" data-name="Rectangle 347" transform="translate(0 13.776)"/>
+            </g>
+            <path id="Path_1198" d="M314.861 13.684H304.4a3.218 3.218 0 0 1-3.219-3.219V0z" class="cls-3" data-name="Path 1198" transform="translate(-278.573)"/>
+        </g>
+        <circle id="Ellipse_795" cx="8.669" cy="8.669" r="8.669" class="cls-4" data-name="Ellipse 795" transform="translate(-6402.339 13019.633)"/>
+        <path id="Path_1207" d="M12.551 53.035l-1.122-1.125a.794.794 0 0 0-1.121 0L4.9 57.347l-2.426-2.441a.762.762 0 0 0-.561-.232.762.762 0 0 0-.561.232L.231 56.031a.8.8 0 0 0 0 1.126l2.985 3 1.122 1.126a.794.794 0 0 0 1.121 0l1.121-1.13 5.97-5.992a.8.8 0 0 0 0-1.126z" class="cls-5" data-name="Path 1207" transform="translate(-6400.106 12971.714)"/>
+    </g>
+</svg>

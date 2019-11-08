@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;stroke:#e3e5e8;stroke-width:2px}.cls-2{fill:#1587ea}.cls-3{stroke:none}.cls-4{fill:none}
+        </style>
+    </defs>
+    <g id="dropbox">
+        <g id="Rectangle_87" class="cls-1" data-name="Rectangle 87">
+            <rect width="50" height="50" class="cls-3" rx="5"/>
+            <rect width="48" height="48" x="1" y="1" class="cls-4" rx="4"/>
+        </g>
+        <g id="dropbox-logo" transform="translate(10 11)">
+            <g id="Group_1012" data-name="Group 1012">
+                <path id="Path_755" d="M9.1 195.964l6.352-5.294-9.176-5.665L0 190.039z" class="cls-2" data-name="Path 755" transform="translate(0 -174.506)"/>
+                <path id="Path_756" d="M237.539 190.67l6.371 5.294 9.083-5.925-6.278-5.034z" class="cls-2" data-name="Path 756" transform="translate(-221.993 -174.506)"/>
+                <path id="Path_757" d="M107.094 289.249v-.037l-.019.019-.019-.019v.037l-6.384 5.275-2.744-1.783v2.006l9.129 5.443v.018l.019-.018.019.018v-.018l9.148-5.443v-2.006l-2.744 1.783z" class="cls-2" data-name="Path 757" transform="translate(-91.557 -272.208)"/>
+                <path id="Path_758" d="M0 22.528l6.278 4.813 9.176-5.419-6.354-5.08z" class="cls-2" data-name="Path 758" transform="translate(0 -16.842)"/>
+                <path id="Path_759" d="M243.91 16.842l-6.371 5.08 9.176 5.419 6.278-4.813z" class="cls-2" data-name="Path 759" transform="translate(-221.993 -16.842)"/>
+            </g>
+        </g>
+    </g>
+</svg>

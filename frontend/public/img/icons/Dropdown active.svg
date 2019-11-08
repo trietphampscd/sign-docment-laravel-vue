@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="7" height="4" viewBox="0 0 7 4">
+    <defs>
+        <style>
+            .cls-1{fill:#202020}
+        </style>
+    </defs>
+    <path id="Dropdown_active" d="M3.944 3.363L.2.029a.105.105 0 0 0-.131-.01A.178.178 0 0 0 0 .167v6.666a.178.178 0 0 0 .069.148.107.107 0 0 0 .06.019.111.111 0 0 0 .071-.03l3.744-3.333a.2.2 0 0 0 0-.274z" class="cls-1" data-name="Dropdown active" transform="rotate(-90 2 2)"/>
+</svg>

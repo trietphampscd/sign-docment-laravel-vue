@@ -1,0 +1,731 @@
+<template>
+  <div class="app flex-row" ref="fileform">
+    <div class="w-100" id="account">
+      <h1>Personal Information</h1>
+      <hr class="mb-4" />
+      <div class="profile-header content-card">
+        <div class="user-happy">
+          <img :src="this.default.avatar" class="clickable-icon" style="width: 99px; height: 99px" v-on:click="changeAvatar()" ref="refAvatar" @error="errorAvatar" />
+          <div class="ml-3">
+            <div class="user-name">{{ this.default.name }}</div>
+            <span class="comments">{{ this.default.email }}</span>
+            <div>
+              <b-button variant="link" class="p-0 mt-3" v-on:click="changePassword()">Change Password</b-button>
+            </div>
+          </div>
+        </div>
+        <div class="user-connection">
+          <div class="connect-social">Connect social networks</div>
+          <div class="socials">
+            <b-button variant="link" class="p-0">
+              <UserIcon icon="fb.svg" class="mr-1 mr-sm-3 social-link" />
+            </b-button>
+            <b-button variant="link" class="p-0">
+              <UserIcon icon="g_plus.svg" class="mr-1 mr-sm-3 social-link" />
+            </b-button>
+            <b-button variant="link" class="p-0">
+              <UserIcon icon="line_disabled.svg" class="mr-1 mr-sm-3 social-link" />
+            </b-button>
+            <b-button variant="link" class="p-0">
+              <UserIcon icon="talk_disabled.svg" class="social-link" />
+            </b-button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-12">
+          <div class="content-card">
+            <div class="content-header">
+              <strong>Company & Job Title</strong>
+            </div>
+            <form v-on:submit.prevent="onUpdateProfile">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="first_name"
+                      placeholder="First Name"
+                      name="first_name"
+                      v-bind:class="{'input-error': isError(form_data.first_name)}"
+                      v-model="form_data.first_name"
+                    />
+                    <div
+                      v-if="isError(form_data.first_name)"
+                      class="error-text"
+                    >Please input First Name</div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="last_name"
+                      placeholder="Last Name"
+                      name="last_name"
+                      v-bind:class="{'input-error': isError(form_data.last_name)}"
+                      v-model="form_data.last_name"
+                    />
+                    <div v-if="isError(form_data.last_name)" class="error-text">Please input Last Name</div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <UserSelect
+                  :value="form_data.purpose"
+                  :items="seeder.purposes"
+                  @changeValue="changePurposeValue"
+                />
+              </div>
+              <div class="row" v-if="form_data.purpose != 'My Personnel use'">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="company"
+                      placeholder="Company"
+                      name="company"
+                      v-model="form_data.company"
+                    />
+                    <!-- v-bind:class="{'input-error': isError(form_data.company)}"
+                    <div v-if="isError(form_data.company)" class="error-text">Please input Company</div>-->
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <UserSelect
+                    v-bind:value="form_data.employee"
+                    v-bind:items="seeder.employees"
+                    @changeValue="changeEmployeeValue"
+                    v-model="form_data.employee"
+                  />
+                </div>
+              </div>
+              <div class="row" v-if="form_data.purpose != 'My Personnel use'">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="job_title"
+                      placeholder="Job Title"
+                      name="job_title"
+                      v-model="form_data.title"
+                    />
+                    <!-- v-bind:class="{'input-error': isError(form_data.title)}" -->
+                    <!-- <div v-if="isError(form_data.title)" class="error-text">Please input Job Title</div> -->
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <UserSelect
+                      v-bind:value="form_data.industry"
+                      v-bind:items="seeder.industries"
+                      @changeValue="changeIndustryValue"
+                      v-model="form_data.industry"
+                    />
+                  </div>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Update</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <b-modal id="change-password-modal" ref="change-password-modal"
+       hide-footer centered size="xl">
+      <div class="change-password-modal">
+        <div class="text-center"><img src="img/icons/mail password.svg" /></div>
+        <div class="title">Change Password</div>
+        <form v-on:submit.prevent="onChangePassword">
+          <div class="content-card">
+            <div class="form-group">
+              <div class="d-flex-align-center">
+                <input
+                  class="form-control"
+                  id="password_old"
+                  placeholder="Current Password*"
+                  name="password_old"
+                  required
+                  :type="isOldPassword ? 'text' : 'password'"
+                  v-model="form_change_data.password_old"
+                  autocomplete="off"
+                />
+                <i class="fa fa-eye clickable-icon ml-3" v-on:click="isOldPassword = !isOldPassword"/>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="d-flex-align-center">
+                <input
+                  class="form-control"
+                  id="password_new"
+                  placeholder="New Password*"
+                  name="password_new"
+                  required
+                  :type="isShowPassword ? 'text' : 'password'"
+                  v-model="form_change_data.password_new"
+                  />
+                  <i class="fa fa-eye clickable-icon ml-3" v-on:click="isShowPassword = !isShowPassword"/>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="d-flex-align-center">
+                <input
+                  class="form-control"
+                  id="password_confirm"
+                  placeholder="Confirm New Password*"
+                  name="password_confirm"
+                  required
+                  :type="showNewConfirm ? 'text' : 'password'"
+                  v-model="form_change_data.password_confirm"
+                />
+                <i class="fa fa-eye clickable-icon ml-3" v-on:click="showNewConfirm = !showNewConfirm"/>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <b-button variant="outline-primary" class="mr-3" v-on:click="cancelChange()">Cancel</b-button>
+            <button type="submit" class="btn btn-primary">Save changes</button>
+          </div>
+        </form>
+      </div>
+    </b-modal>
+    
+    <b-modal id="change-avatar-modal" ref="change-avatar-modal"
+       hide-footer centered size="xl">
+      <div class="change-avatar-modal">
+        <div class="title">Change Avatar</div>
+
+        <div class="img-control-btns">
+          <input type="file" ref="avatar_file"
+            style="display: none"  @change="onFileChange" />
+          <b-button variant="outline-primary" v-on:click="changeAvatarImg()">Other Image</b-button>
+          <div>
+            <i class="fa fa-rotate-left clickable-icon" v-on:click="rotate(-90)"/>
+            <i class="fa fa-rotate-right clickable-icon mx-3" v-on:click="rotate(90)"/>
+          </div>
+        </div>
+        
+        <!-- <vue-cropper
+          ref="cropper"
+          :src="this.default.avatar"
+          alt="Source Image"
+          :cropmove="cropped"
+          class="my-4"
+          :minContainerHeight="300"
+          :auto-crop-width="this.default.autoCropWidth" 
+          :auto-crop-height="this.default.autoCropHeight" 
+        >
+        </vue-cropper> -->
+        <div class="cut">
+          <vue-cropper 
+            ref="cropper" 
+            :img="option.img" 
+            :src="option.img"
+            :output-size="option.size" 
+            :output-type="option.outputType" 
+            :info="true" :full="option.full" 
+            :fixed="fixed"
+            :can-move="option.canMove" 
+            :can-move-box="option.canMoveBox" 
+            :fixed-box="option.fixedBox" 
+            :original="option.original"
+            :auto-crop="option.autoCrop" 
+            :auto-crop-width="option.autoCropWidth" 
+            :auto-crop-height="option.autoCropHeight" 
+            :center-box="option.centerBox"
+            @real-time="realTime" :high="option.high"
+            @img-load="imgLoad" mode="cover"
+          ></vue-cropper>
+        </div>
+        <div class="text-center">
+          <b-button variant="outline-primary" class="mr-3" v-on:click="cancelAvatar()" >Cancel</b-button>
+          <button type="submit" class="btn btn-primary" v-on:click="saveAvatar()">Save changes</button>
+        </div>
+      </div>
+    </b-modal>
+  </div>
+</template>
+
+<script>
+import { mapState, mapGetter, mapActions, mapGetters } from 'vuex'
+
+import VueCropper from 'vue-cropperjs'
+import UserIcon from "../../components/UserIcon"
+import UserSelect from "../../components/UserSelect"
+
+import { 
+  GET_USER_INFOR_REQUEST,
+  USER_UPDATE_PASSAUTH_REQUEST,
+  USER_UPDATE_REQUEST
+} from '../../store/actions.type'
+
+import 'cropperjs/dist/cropper.css'
+
+export default {
+  name: "Account",
+  components: {
+    UserIcon,
+    UserSelect,
+    VueCropper
+  },
+  data() {
+    return {
+      form: {
+        first_name: '',
+        last_name: '',
+        name: '',
+        account_type: '',
+        company_name: '',
+        company_size: '',
+        department_name: '',
+        industry_name: ''
+      },
+      sform: {
+        first_name: '',
+        last_name: '',
+        name: '',
+        account_type: '',
+        company_name: '',
+        company_size: '',
+        department_name: '',
+        industry_name: ''
+      },
+      arLists: {
+        account_type: [
+          'Personnel',
+          'Business'
+        ],
+        company_size: [
+          '0-5',
+          '6-10',
+          '11-20',
+          '21-50',
+          '51-100',
+          '101-300',
+          '301-1000',
+          'More than 1000'
+        ],
+        departments: [
+          'R&D',
+          'Marketing'
+        ],
+        industries: [
+          'Accounting & Tax Accounting',
+          'Business Services / Consulting Business Services',
+          'Construction - General Construction',
+          'Construction - Home Builder Real Estate - Construction',
+          'Debt Settlement Debt Settlement/Loan Modification',
+          'Education Education',
+          'Financial Services - Banking Banking',
+          'Financial Services - Credit Unions Credit Unions',
+          'Financial Services - Other Financial Services',
+          'Financial Services - Wealth & Asset Management Wealth Management',
+          'Government - City Government - City',
+          'Government - County Government - County',
+          'Government - Federal Government - National',
+          'Government - State Government - State',
+          'Healthcare - Health Plans & Payers Insurance - Health',
+          'Healthcare - Providers Healthcare - Providers',
+          'HR Staffing HR Staffing',
+          'Insurance - Agents / Brokers Insurance - Agency',
+          'Insurance - Carriers Insurance - Carriers',
+          'Legal Legal',
+          'Life Sciences - Medical Devices Life Sciences - Medical Devices',
+          'Life Sciences - Other Life Sciences - Other',
+          'Life Sciences - Pharmaceuticals Life Sciences - Pharmaceuticals',
+          'Life Sciences - Wholesale Distributors Life Sciences - Wholesale/Distributor',
+          'Manufacturing',
+          'Mortgage Broker Real Estate - Mortgage',
+          'Not For Profit',
+          'Real Estate - Agent Real Estate - Agent',
+          'Real Estate - Broker/Owner Real Estate - Broker/Owner',
+          'Real Estate - Commercial Real Estate - Commercial',
+          'Real Estate - Property Management Real Estate - Property Management',
+          'Retail Retail',
+          'Sports, Entertainment, Travel & Leisure',
+          'Technology - General Technology',
+          'Technology - Startup Technology',
+          'Telecommunications',
+          'Other'
+        ]
+
+      },
+      validator: {
+        first_name: {
+          valid: true,
+          focus: false,
+          blured: false,
+          text: 'Please input a valid First Name',
+          error: false,
+          last: ''
+        },
+        last_name: {
+          valid: true,
+          focus: false,
+          blured: false,
+          text: 'Please input a valid Last Name',
+          error: false,
+          last: ''
+        },
+        account_type: {
+          valid: true,
+          focus: false,
+          blured: false,
+          text: ''
+        },
+        company_name: {
+          valid: true,
+          focus: false,
+          blured: false,
+          text: 'Please input a valid Company Name',
+          error: false,
+          last: ''
+        },
+        company_size: {
+          valid: true,
+          focus: false,
+          blured: false,
+          text: 'Number of Employee',
+          error: false,
+          last: ''
+        },
+        department_name: {
+          valid: true,
+          focus: false,
+          blured: false,
+          text: 'Please select a valid Department',
+          error: false,
+          last: ''
+        }
+      },
+      isOldPassword: false,  
+      isShowPassword: false,
+      isShowPasswordConfirm: false,
+
+
+
+
+
+      
+      currentUser: '',
+      cropped: null,
+      showOldPwd: false,
+      isShowPassword: false,
+      showNewConfirm: false,
+      default: {
+        name: '',
+        email: '',
+        avatar: '',
+      },
+
+      previews: {},
+      option: {
+        img: '',
+        size: 1,
+        full: false,
+        outputType: 'png',
+        canMove: true,
+        fixedBox: false,
+        original: false,
+        canMoveBox: true,
+        autoCrop: true,
+        autoCropWidth: 200,
+        autoCropHeight: 150,
+        centerBox: false,
+        high: true
+      },
+      show: true,
+      fixed: true,
+      fixedNumber: [1, 2],
+
+      form_data: {
+        error_flag: false,
+        first_name: "",
+        last_name: "",
+        purpose: "Purpose of using",
+        company: "",
+        employee: "Number of Employees",
+        title: "",
+        industry: "Select Industry",
+      },
+      form_change_data: {
+        /* Password Change */
+        password_old: '',
+        password_new: '',
+        password_confirm: ''
+      },
+      seeder: {
+        purposes: [
+          'Personnel', 
+          'Business'
+        ],
+        employees: [
+          '0-5',
+          '6-10',
+          '11-20',
+          '21-50',
+          '51-100',
+          '101-300',
+          '301-1000',
+          'More than 1000'
+        ],
+        industries: [
+          'Accounting & Tax Accounting',
+          'Business Services / Consulting Business Services',
+          'Construction - General Construction',
+          'Construction - Home Builder Real Estate - Construction',
+          'Debt Settlement Debt Settlement/Loan Modification',
+          'Education Education',
+          'Financial Services - Banking Banking',
+          'Financial Services - Credit Unions Credit Unions',
+          'Financial Services - Other Financial Services',
+          'Financial Services - Wealth & Asset Management Wealth Management',
+          'Government - City Government - City',
+          'Government - County Government - County',
+          'Government - Federal Government - National',
+          'Government - State Government - State',
+          'Healthcare - Health Plans & Payers Insurance - Health',
+          'Healthcare - Providers Healthcare - Providers',
+          'HR Staffing HR Staffing',
+          'Insurance - Agents / Brokers Insurance - Agency',
+          'Insurance - Carriers Insurance - Carriers',
+          'Legal Legal',
+          'Life Sciences - Medical Devices Life Sciences - Medical Devices',
+          'Life Sciences - Other Life Sciences - Other',
+          'Life Sciences - Pharmaceuticals Life Sciences - Pharmaceuticals',
+          'Life Sciences - Wholesale Distributors Life Sciences - Wholesale/Distributor',
+          'Manufacturing',
+          'Mortgage Broker Real Estate - Mortgage',
+          'Not For Profit',
+          'Real Estate - Agent Real Estate - Agent',
+          'Real Estate - Broker/Owner Real Estate - Broker/Owner',
+          'Real Estate - Commercial Real Estate - Commercial',
+          'Real Estate - Property Management Real Estate - Property Management',
+          'Retail Retail',
+          'Sports, Entertainment, Travel & Leisure',
+          'Technology - General Technology',
+          'Technology - Startup Technology',
+          'Telecommunications',
+          'Other'
+        ]
+      }
+    };
+  },
+  computed: {
+    ...mapState({
+
+    }),
+    ...mapGetters(['getUser'])
+  },
+  mounted() {
+    this.currentUser = this.$store.state.authentication.user
+
+    this.default.name = (this.currentUser.first_name && this.currentUser.last_name) ? `${this.currentUser.first_name} ${this.currentUser.last_name}` : 'User'
+    this.default.email = this.currentUser.email
+    this.default.avatar = (this.currentUser.avatar) ? this.currentUser.avatar : '/img/avatars/default.png'
+    this.option.img = (this.currentUser.avatar) ? this.currentUser.avatar : '/img/avatars/default.png'
+
+    this.form_data.first_name = this.currentUser.first_name
+    this.form_data.last_name = this.currentUser.last_name
+    if (this.currentUser.client) {
+      this.form_data.purpose = this.currentUser.client.account_type
+      this.changePurposeValue(this.form_data.purpose)
+      this.form_data.company = this.currentUser.client.company_name
+      this.form_data.employee = this.currentUser.client.size_from + '-' + this.currentUser.client.size_to
+      this.form_data.title = this.currentUser.client.department_name
+      this.form_data.industry = this.currentUser.client.industry_name
+    }
+  },
+  methods: {
+    changeAvatarImg() {
+      this.$refs.avatar_file.click();
+    },
+    errorAvatar() {
+      this.$refs.refAvatar.src = 'img/avatars/default.png'
+    },
+    
+    changePurposeValue(e) {
+      this.form_data.purpose = e;
+    },
+    changeEmployeeValue(e) {
+      this.form_data.employee = e;
+    },
+    changeIndustryValue(e) {
+      this.form_data.industry = e;
+    },
+
+    getPurposeIndex(item) {
+      
+    },
+    getEmployeeIndex(item) {
+      var array1 = this.seeder.employees
+      return (array1.findIndex((item) => {
+        return item === this.form_data.employee
+      }) + 1)
+    },
+    getIndustryIndex(item) {
+      var array1 = this.seeder.industries
+      return (array1.findIndex((item) => {
+        return item === this.form_data.industry
+      }) + 1)
+    },
+
+    onFileChange(e) {
+      var files = e.target.files || e.dataTransfer.files;
+      if (!files || !files.length) return;
+      var reader = new FileReader();
+      reader.onload = function(e) {
+        this.img_file = e.target.result;
+        console.log(this.img_file);
+      };
+      reader.readAsDataURL(files[0]);
+    },
+
+    rotate(rotationAngle) {
+      this.$refs['cropper'].rotate(rotationAngle);
+    },
+    saveAvatar() {
+      this.$refs['change-avatar-modal'].hide();
+    },
+    changeAvatar() {
+      this.$refs['change-avatar-modal'].show();
+    },
+    changePassword() {
+      this.$refs['change-password-modal'].show();
+    },
+    cancelAvatar() {
+      this.$refs['change-avatar-modal'].hide();
+    },
+    cancelChange() {
+      this.$refs['change-password-modal'].hide();
+    },
+
+    onUpdateProfile() {
+      var form_update = {
+        id: this.currentUser.id,
+        first_name: this.form_data.first_name,
+        last_name: this.form_data.last_name,
+        account_type: this.form_data.purpose,
+        company_name: this.form_data.company,
+        company_size_id: this.getEmployeeIndex(this.form_data.employee),
+        company_size_name: this.form_data.employee,
+        deparment_id: null,
+        department_name: this.form_data.title,
+        industry_id: this.getIndustryIndex(this.form_data.industry),
+        industry_name: this.form_data.industry,
+      }
+
+      var vm = this
+
+      // if(!vm.validateForm()) {
+      //   return
+      // }
+
+      
+
+      vm.$store.dispatch(USER_UPDATE_REQUEST, form_update)
+        .then(response => {
+          // Updated! Later with Popup Message
+          console.log('Success')
+        })
+        .catch(error => {
+          vm.isError(error)
+        })
+    },
+    onChangePassword() {
+      var vm = this
+
+      // if (!vm.validate()) {        
+      //   this.$refs['change-password-modal'].hide();
+      // }
+
+      vm.$store.dispatch(USER_UPDATE_PASSAUTH_REQUEST, vm.form_change_data)
+        .then(response => {
+          // Updated! Later with Popup Message
+          // vm.dispatch(GET_USER_INFOR_REQUEST)
+          this.$refs['change-password-modal'].hide();
+        })
+        .catch(error => {
+          vm.isError(error)
+        })
+    },
+    validate() {
+      var vm = this
+
+      if (vm.validPassword(vm.form_change_data.password_old) && vm.validPassword(vm.form_change_data.password_new) && vm.validPassword(vm.form_change_data.password_confirm)) {
+        return true
+      } else {
+        return false
+      }
+    },
+    validPassword(password) {
+      var vm = this
+
+      if (password == vm.validator.password.last) {
+          return
+      }
+
+      vm.validator.password.error = false
+      vm.validator.password.last = ''
+
+      if (password.length < 6 || password.length > 12) {
+          vm.validator.password.valid = false
+          vm.validator.password.text = 'Password must be 6 ~ 12 length characters'
+          return false
+      } else if (!(/[a-z]/.test(password))) {
+          vm.validator.password.valid = false
+          vm.validator.password.text = 'Password must contain at least 1 lower case letter'
+          return false
+      } else if (!(/[A-Z]/.test(password))) {
+          vm.validator.password.valid = false
+          vm.validator.password.text = 'Password must contain at least 1 capital letter'
+          return false
+      } else if (!(/[0-9]/.test(password))) {
+          vm.validator.password.valid = false
+          vm.validator.password.text = 'Password must contain at least 1 number'
+          return false
+      } else if (!(/[!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]/.test(password))) {
+          vm.validator.password.valid = false
+          vm.validator.password.text = 'Password must contain at least 1 special character'
+          return false
+      }
+
+      return true
+    },
+    isError(value) {
+      return (
+        this.form_data.error_flag &&
+        (value === undefined ||
+          value === null ||
+          (typeof value === "object" && Object.keys(value).length === 0) ||
+          (typeof value === "string" && value.trim().length === 0))
+      );
+    },
+  
+    imgLoad(msg) {
+      console.log(msg)
+    },
+    realTime(data) {
+      this.previews = data
+    },
+
+    // getStarted() {
+    //   this.form_data.error_flag = true;
+    //   if (this.isError(this.form_data.first_name)) return;
+    //   if (this.isError(this.form_data.last_name)) return;
+    //   this.confirmed = true;
+    // }
+  }
+};
+</script>
+
+<style lang="scss">
+@import "./Account.scss";
+</style>
+

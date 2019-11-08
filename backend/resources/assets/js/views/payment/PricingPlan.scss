@@ -1,0 +1,68 @@
+.personal-plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+
+  .payment-header {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.31;
+    color: #2e221e;
+  }
+  .mastercard {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.56;
+    color: #202020;
+  }
+}
+
+.payment-history {
+  .history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+  .history-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2e221e;
+    @media (max-width: 600px) {
+      flex-wrap: wrap;
+    }
+  }
+
+  .other-fields {
+    width: calc((100% - 88px) / 4);
+    min-width: 105px;
+  }
+  .receipt {
+    width: 88px;
+  }
+}
+
+.payment-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 60px;
+}
+.modal-header {
+  border-bottom: none;
+}
+label {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.36;
+  color: #202020;
+}

@@ -1,0 +1,694 @@
+{
+  "May 1, 2019": "May 1, 2019",
+  "6:59:59 AM": "6:59:59 AM",
+  "Full Name": "Full Name",
+  "Company": "Company",
+  "Title": "Title",
+  "Text": "Text",
+  "Date Signed": "Date Signed",
+  "Attachments": "Attachments",
+  "Signature": "Signature",
+  "Stamp": "Stamp",
+  "Account": "Account",
+  "Pricing Plan": "Pricing Plan",
+  "Branding": "Branding",
+  "Logout": "Logout",
+  "Profile": "Profile",
+  "Add Documents": "Add Documents",
+  "We are happy to see you again Suzanne Thompson": "We are happy to see you again Suzanne Thompson",
+  "CoffeeSign even takes care reminding our clients": "CoffeeSign even takes care reminding our clients",
+  "Waiting for Others": "Waiting for Others",
+  "Upgrade to Standard plan": "Upgrade to Standard plan",
+  "Upgrade now and enjoy additional features": "Upgrade now and enjoy additional features",
+  "Click here to upgrade": "Click here to upgrade",
+  "SIGNATURE": "SIGNATURE",
+  "Replace": "Replace",
+  "Remove": "Remove",
+  "INITIALS": "INITIALS",
+  "STAMP": "STAMP",
+  "Upload Initials": "Upload Initials",
+  "Action Required": "Action Required",
+  "Needs to Sign": "Needs to Sign",
+  "Receives a copy": "Receives a Copy",
+  "Receives a Copy": "Receives a Copy",
+  "In personal signer": "In personal signer",
+  "Purpose of using": "Purpose of using",
+  "Number of Employees": "Number of Employees",
+  "Select Industry": "Select Industry",
+  "My Personnel use": "My Personnel use",
+  "My Business": "My Business",
+  "Accounting & Tax Accounting": "Accounting & Tax Accounting",
+  "Business Services / Consulting Business Services": "Business Services / Consulting Business Services",
+  "Construction - General Construction":"Construction - General Construction",
+  "Construction - Home Builder Real Estate - Construction":"Construction - Home Builder Real Estate - Construction",
+  "Debt Settlement Debt Settlement/Loan Modification":"Debt Settlement Debt Settlement/Loan Modification",
+  "Education Education":"Education Education",
+  "Financial Services - Banking Banking":"Financial Services - Banking Banking",
+  "Financial Services - Credit Unions Credit Unions":"Financial Services - Credit Unions Credit Unions",
+  "Financial Services - Other Financial Services":"Financial Services - Other Financial Services",
+  "Financial Services - Wealth & Asset Management Wealth Management":"Financial Services - Wealth & Asset Management Wealth Management",
+  "Government - City Government - City":"Government - City Government - City",
+  "Government - County Government - County":"Government - County Government - County",
+  "Government - Federal Government - National":"Government - Federal Government - National",
+  "Government - State Government - State":"Government - State Government - State",
+  "Healthcare - Health Plans & Payers Insurance - Health":"Healthcare - Health Plans & Payers Insurance - Health",
+  "Healthcare - Providers Healthcare - Providers":"Healthcare - Providers Healthcare - Providers",
+  "HR Staffing HR Staffing":"HR Staffing HR Staffing",
+  "Insurance - Agents / Brokers Insurance - Agency":"Insurance - Agents / Brokers Insurance - Agency",
+  "Insurance - Carriers Insurance - Carriers":"Insurance - Carriers Insurance - Carriers",
+  "Legal Legal":"Legal Legal",
+  "Life Sciences - Medical Devices Life Sciences - Medical Devices":"Life Sciences - Medical Devices Life Sciences - Medical Devices",
+  "Life Sciences - Other Life Sciences - Other":"Life Sciences - Other Life Sciences - Other",
+  "Life Sciences - Pharmaceuticals Life Sciences - Pharmaceuticals":"Life Sciences - Pharmaceuticals Life Sciences - Pharmaceuticals",
+  "Life Sciences - Wholesale Distributors Life Sciences - Wholesale/Distributor":"Life Sciences - Wholesale Distributors Life Sciences - Wholesale/Distributor",
+  "Manufacturing":"Manufacturing",
+  "Mortgage Broker Real Estate - Mortgage":"Mortgage Broker Real Estate - Mortgage",
+  "Not For Profit":"Not For Profit",
+  "Real Estate - Agent Real Estate - Agent":"Real Estate - Agent Real Estate - Agent",
+  "Real Estate - Broker/Owner Real Estate - Broker/Owner":"Real Estate - Broker/Owner Real Estate - Broker/Owner",
+  "Real Estate - Commercial Real Estate - Commercial":"Real Estate - Commercial Real Estate - Commercial",
+  "Real Estate - Property Management Real Estate - Property Management":"Real Estate - Property Management Real Estate - Property Management",
+  "Retail Retail":"Retail Retail",
+  "Sports & Entertainment Travel & Leisure":"Sports & Entertainment Travel & Leisure",
+  "Technology - General Technology":"Technology - General Technology",
+  "Technology - Startup Technology":"Technology - Startup Technology",
+  "Telecommunications":"Telecommunications",
+  "Other":"Other",
+  "auth": {
+    "signintitle": "Welcome Back!",
+    "signinsubtitle": "New in CoffeeSign?",
+    "signinsubtitle2": "Create an account",
+    "socincomment": "Or you can signin with:",
+
+    "signup": "Create an account",
+    "signupsubtitle": "Already have a CoffeeSign account?",
+    "signupsubtitle2": "Sign in",
+    "tnc": "By proceeding your agree to the",
+    "tnc2": "Terms of Use",
+    "tnc3": "and",
+    "tnc4": "Privacy Policy",
+    "socupcomment": "Or you can signup with:",
+
+    "forgottitle": "Forgot your password?",
+    "forgotsubtitle": "Back to",
+    "forgotsubtitle2": "Sign In",
+    "forgotdesc": "You will receive a password reset link at your registered email address, which is valid for 10 minutes.",
+
+    "resettitle": "Reset your password",
+
+    "carousel": {
+      "title": "What is CoffeeSign?",
+      "subtitle": "CoffeeSign is a 3-step e-signature service that helps your business grow faster.",
+      "subtitle2": "Save your time and money with us."
+    },
+    "input": {
+      "firstname": "Your first name",
+      "lastname": "Your last name",
+      "email": "Your email address",
+      "password": "Password",
+      "confirmpass": "Confirm password",
+      "remember": "Remember Me",
+      "forgot": "Forgot Password?"
+    },
+    "error": {
+      "email": "Please input a valid Email",
+      "password1": "Password must be 6 ~ 12 length characters",
+      "password2": "Password must contain at least 1 lower case letter",
+      "password3": "Password must contain at least 1 capital letter",
+      "password4": "Password must contain at least 1 number",
+      "password5": "Password must contain at least 1 special character"
+    },
+    "button": {
+      "signin": "Sign In",
+      "signup": "Sign Up and Get Started",
+      "submit": "Submit",
+      "resetpass": "Reset Password"
+    },
+    "modal": {
+      "errorlogin": "Error occured while login.",
+      "errorsocial": "Error occured while social log in.",
+      "errorsocialsignup": "Error occured while social sign up"
+    }
+  },
+
+  "home": 
+    {
+      "title": "We are happy to see you again",
+      "subtitle": "Suzanne Thompson!",
+      "comments": "CoffeeSign even takes care reminding our clients!",
+      "user": {
+        "action": {
+          "typeLeft": "Action Required",
+          "typeRight": "Waiting for Others"
+        },
+        "plan": {
+          "title": "Upgrade to Standard plan",
+          "comments": "Upgrade now and enjoy additional features.",
+          "click": "Click here to upgrade"
+        }
+      },
+      "profile": {
+        "title": "Profile completion",
+        "comments": "Lorem ipsum dolor sit amet, ea meis fabellas nam, movet contentiones te eum.",
+        "button": "Show more"
+    },
+    "signature": "SIGNATURE",
+    "replace": "Replace",
+    "remove": "Remove",
+    "initials": "INITIALS",
+    "st": "ST",
+    "stamp": "STAMP",
+    "upload": "Upload Initials",
+    "drag": {
+      "title": "Drag a file here or browse for a file to upload",
+      "title_1": "Drag a file here or",
+      "title_2": "browse",
+      "title_3": "for a file to upload",
+      "subtitle": "Or you can use one of the following options:",
+      "comments": "Or you can use your templates",
+      "button": "Go to My Templates"
+    }
+  },
+  "layout": {
+    "button": "Upgrade Your Plan",
+    "hello": "Hello, ",
+    "logout": "Logout",
+    "footer": "All rights reserved.",
+    "payment": {
+      "sidebar": {
+        "button": "Start Now",
+        "account": "Account",
+        "signature": "Signature",
+        "pricing": "Pricing Plan",
+        "branding": "Branding"
+      },
+      "header": {
+        "comments": "Your current plan:",
+        "icon": "Free",
+        "documents": "DOCUMENTS",
+        "templates": "TEMPLATES"
+      }
+    },
+    "documents": {
+      "sidebar": {
+        "button": "Cancel"
+      },
+      "header": {
+        "upload": "Upload document",
+        "recipients": "Add Recipients",
+        "prepare": "Prepare",
+        "review": "Review"
+      },
+      "modal": {
+        "title": "Welcome",
+        "subtitle": "Now you can use easy and simple digital signatures",
+        "summary": "You can use 5 times for FREE",
+        "more": "More than 1000",
+        "error": {
+          "name": {
+            "first": "Please input First Name",
+            "last": "Please input Last Name"
+          },
+          "purpose": "Please select Purpose of using",
+          "company": "Please input Company",
+          "employee": "Please select Employee",
+          "title": "Please input Job Title",
+          "industry": "Please select Industry"
+        },
+        "purpose": "Purpose of using",
+        "employee": "Number of Employees",
+        "industry": "Select Industry",
+        "button": "Get Started",
+        "array": [
+          "Select Industry",
+          "Accounting &amp; Tax Accounting",
+          "Business Services / Consulting Business Services",
+          "Construction - General Construction",
+          "Construction - Home Builder Real Estate - Construction",
+          "Debt Settlement Debt Settlement/Loan Modification",
+          "Education Education",
+          "Financial Services - Banking Banking",
+          "Financial Services - Credit Unions Credit Unions",
+          "Financial Services - Other Financial Services",
+          "Financial Services - Wealth &amp; Asset Management Wealth Management",
+          "Government - City Government - City",
+          "Government - County Government - County",
+          "Government - Federal Government - National",
+          "Government - State Government - State",
+          "Healthcare - Health Plans &amp; Payers Insurance - Health",
+          "Healthcare - Providers Healthcare - Providers",
+          "HR Staffing HR Staffing",
+          "Insurance - Agents / Brokers Insurance - Agency",
+          "Insurance - Carriers Insurance - Carriers",
+          "Legal Legal",
+          "Life Sciences - Medical Devices Life Sciences - Medical Devices",
+          "Life Sciences - Other Life Sciences - Other",
+          "Life Sciences - Pharmaceuticals Life Sciences - Pharmaceuticals",
+          "Life Sciences - Wholesale Distributors Life Sciences - Wholesale/Distributor",
+          "Manufacturing",
+          "Mortgage Broker Real Estate - Mortgage",
+          "Not For Profit",
+          "Real Estate - Agent Real Estate - Agent",
+          "Real Estate - Broker/Owner Real Estate - Broker/Owner",
+          "Real Estate - Commercial Real Estate - Commercial",
+          "Real Estate - Property Management Real Estate - Property Management",
+          "Retail Retail",
+          "Sports &amp; Entertainment Travel &amp; Leisure",
+          "Technology - General Technology",
+          "Technology - Startup Technology",
+          "Telecommunications",
+          "Other"
+        ],
+        "nav": [
+          "Roger Waters",
+          "Barrett Nash-Willi",
+          "Barrett Nash-Willi"
+        ]
+      }
+    },
+    "sign": {
+      "check": "Check the document",
+      "signing": "Signing",
+      "complition": "Complition",
+      "sign": {
+        "later": "Sign Late",
+        "start": "Start Signing"
+      },
+      "finishLater": "Finish Later",
+      "finish": "Finish"
+    }
+  },
+  "docsign": {
+    "next": "Next",
+    "back": "Back",
+    "send": "Send",
+    "lorem": "Continuous Improvement lorem ipsum sit dollor amet.doc",
+    "documents": "DOCUMENTS",
+    "efficiantur": "Ad cum numquam efficiantur.pdf",
+    "Needs to Sign": "Needs to Sign",
+    "Receives a Copy": "Receives a Copy",
+    "In personal signer": "In personal signer",
+    "document": {
+      "title": "Add Documents",
+      "checkbox": "I am the only signer"
+    },
+    "recipients": {
+      "title": "RECIPIENT",
+      "button": {
+        "email": "Send email",
+        "talk": "Kakao Talk"
+      },
+      "password": "Set Password",
+      "placeholder": {
+        "recipient": "Recipient Name*",
+        "email": "Email Address*",
+        "password": "Password*",
+        "confirm": "Confirm Password"
+      },
+      "recipient": "Add Recipient"
+    },
+    "prepare": {
+      "title": "Prepare document",
+      "arrow": "Who fills this out?"
+    },
+    "review": {
+      "review": "Review and Send",
+      "title": "TO: ALL RECIIENTS",
+      "subtitle": "Email Subject",
+      "email": "Email Message",
+      "input_email_sub_1":"Sign Request for", 
+      "input_email_sub_2":"from Coffeesign.io",
+      "input_message_1":"As discussed, please kindly take a look at the document and sign.",
+      "input_message_2":"Thanks.",
+      "placeholder": {
+        "coffeeSign": "Please CoffeeSign:",
+        "message": "Enter Message"
+      },
+      "expiration": "Expiration",
+      "request": {
+        "expire": "Number of days before request expire:",
+        "scheduled": "Request will be scheduled for expiration on",
+        "at": "at"
+      },
+      "documents": "DOCUMENTS",
+      "recipients": "RECIPIENTS",
+      "roger": "Roger Waters",
+      "barrett": "Barrett Nash-Williams",
+      "william": "William Jacobson",
+      "signer": "In personal signer",
+      "comments": "Once the envelope is completed, all recipients will receive a copy of the completed envelope.",
+      "modal": {
+        "title": "You are Done",
+        "comments": "Thank You for using CoffeeSign! After all recipients finish signing, you will recieve an email with a link to the document.",
+        "button": "Go to the Home page"
+      }
+    }
+  },
+  "payment": {
+    "document": {
+      "title": "Document List",
+      "placeholder": "Type here to search...",
+      "status": "Sign status:",
+      "completed": "Completed",
+      "improvement": "Continuous Improvement",
+      "name": "Suzanne Martin",
+      "table": {
+        "document": "DOCUMENT SUBJECT",
+        "status": "STATUS",
+        "change": "LAST CHANGE",
+        "action": "ACTION",
+        "selected": "Selected",
+        "delete": "Delete",
+        "me": "to me",
+        "scott": "Scott Wilkerson",
+        "hannah": "Hannah Harmon"
+
+      },
+      "dropdown": {
+        "copy": "Create a copy",
+        "save": "Save as template",
+        "history": "History",
+        "export": "Export as CSV",
+        "delete": "Delete"
+      },
+      "collapse": {
+        "sign": "Waiting to sign",
+        "pages": "pages"
+      },
+      "per": "Per page",
+      "period": "Date"
+    },
+    "pricing": {
+      "title": "Pricing Plan",
+      "header": "Personal Monthly Plan",
+      "mastercard": "MasterCard",
+      "payment": "Next Payment",
+      "available": "Available:",
+      "history": "Payment History",
+      "date": "Date",
+      "type": "TYPE",
+      "transaction" :"TRANSACTION",
+      "amount": "AMOUNT",
+      "receipt": "RECEIPT",
+      "invoice": "Invoice",
+      "view": "View PDF",
+      "button": "Show more invoices",
+      "modal": {
+        "method": "Change payment method",
+        "card": "Credit/debit card number",
+        "month": "Expiration month",
+        "year": "Expiration year",
+        "name": {
+          "first": "First Name",
+          "last": "Last Name"
+        },
+        "address": "Billing address",
+        "placeholder": "Enter your billing address",
+        "code": "Zip code",
+        "country": "Country/Region",
+        "revert": "Revert",
+        "save": "Save"
+      },
+      "credit": "Credit Card",
+      "select": "Select Country"
+    },
+    "template": {
+      "title": "My Templates",
+      "placeholder": "Type here to search...",
+      "table": {
+        "subject": "SUBJECT",
+        "created": "CREATED",
+        "change": "LAST CHANGE",
+        "used": "OF USED",
+        "type": "TYPE",
+        "auther": "AUTHOR",
+        "action": "ACTION"
+      },
+      "dropdown": {
+        "preview" :"Preview",
+        "send": "Send for signature",
+        "edit": "Edit Template",
+        "share": "Share your template with other users"
+      },
+      "per": "Per page",
+      "modal": {
+        "title": "Do you want to share the XXX template with other users?",
+        "button": "Share this template"
+      },
+      "inquiry": "Inquiry",
+      "report": "Report",
+      "tag": "Tag",
+      "proposed": "Proposed tag",
+      "example": "Example proposed tag",
+      "official": "Official",
+      "shared": "Shared",
+      "mine": "Mine"
+    },
+    "upgrade": {
+      "titleLeft": "Upgrade",
+      "titleRight": "Plan",
+      "annual": "Annual",
+      "monthly": "Monthly",
+      "month": "Per month",
+      "user": "Per user",
+      "annually": "annually",
+      "limit": "Limit for Sending for Signature",
+      "button": "Cancel plan",
+      "free": "Free",
+      "personnel": "Personnel",
+      "standard": "Standard",
+      "pro": "Pro",
+      "total": "Times total",
+      "noLimit": "No Limit"
+    },
+    "upgradeTo": {
+      "title": "Upgrade To",
+      "header": "Payment information",
+      "label": "Credit/debit card number",
+      "error": {
+        "card": "Please input card number",
+        "cvv": "Please input CVV",
+        "first": "Please input First Name",
+        "last": "Please input Last Name",
+        "state": "Please input state",
+        "address": "Please input Street Address",
+        "code": "Please input Zip code"
+      },
+      "cvv": "CVV",
+      "paypal": "Pay with PayPal",
+      "information": "Billing information",
+      "country": "Country",
+      "state": "State",
+      "address": "Street Address",
+      "code": "Zip code",
+      "buying": "You're buying:",
+      "perMonth": "Per month",
+      "limit": "Limit for Sending for Signature",
+      "upgrade": "Upgrade my plan!",
+      "clicking": "By clicking Upgrade my plan! you agree to the",
+      "terms": "Terms and Conditions",
+      "modal": {
+        "title": "Your plan is upgraded",
+        "commentsLeft": "Thank You for upgrading to",
+        "commentsRight": "You can always downgrade when you are not in needs any more.",
+        "button": "Get start"
+      },
+      "position": "top right",
+      "subscription": "Monthly subscription",
+      "select": "Select Country",
+      "region": "Select Region",
+      "month": "Month",
+      "year": "Year",
+      "placeholder": {
+        "cvv": "Your CVV",
+        "first": "First Name",
+        "last": "Last Name"
+      }
+    }
+  },
+  "profile": {
+    "account": {
+      "title": "Personal Information",
+      "avatar": "Change Avatar",
+      "otheravatar": "Upload Avatar",
+      "otheravatarsubtitle": "Upload your new avatar.",
+      "networks": "Connect social networks",
+      "password": "Change Password",
+      "header": "Company & Job Title",
+      "error": {
+        "first": "Please input First Name",
+        "last": "Please input Last Name",
+        "purpose": "Please select Purpose of using",
+        "company": "Please input Company",
+        "employee": "Please select Employee",
+        "job": "Please input Job title",
+        "industry": "Please select Industry"
+      },
+      "update": "Update",
+      "save": "Save changes",
+      "cancel": "Cancel",
+      "purpose": "Purpose of using",
+      "employee": "Employee",
+      "industry": "Select Industry",
+      "placeholder": {
+        "firstname": "First Name",
+        "lastname": "Last Name",
+        "purpose": "Purpose of using",
+        "company": "Company",
+        "employee": "Number of Employees",
+        "job": "Job Title",
+        "industry": "Select Industry",
+        "current": "Current Password*",
+        "new": "New Password*",
+        "confirm": "Confirm New Password*"
+      }
+    },
+    "brinding": {
+      "title": "Custom Branding",
+      "header": "Sender’s Info - You can customize sender’s information here:",
+      "edit": "Edit Name",
+      "cancel": "Cancel",
+      "save": "Save Changes",
+      "style": "Email Style - Custom Branding",
+      "comments": "The email style is a feature that allows you to change the logo image, style, and intro text of your electronic contract email. (KakaoTalk message is not supported)",
+      "more": "Learn more",
+      "iamge": "Logo Image",
+      "cahnge": "Change logo",
+      "link": "Logo Link",
+      "tooltip": "Lorem ipsum dolor sit amet, sed adipisci efficiendi ne.",
+      "explanation": "Explanation",
+      "color": {
+        "color": "Top/Button Color",
+        "button": "Button Color",
+        "text": "Button Text Color"
+      },
+      "fields": "Edit fields",
+      "signed": "Easy Electronic Contract Signed All",
+      "sign": "Its time to sign",
+      "information": "Please verify the signature information.",
+      "press": "Press the button below to go to the page that can be signed.",
+      "document": "Document name:",
+      "contract": "Hong Gil-dong salary contract",
+      "content": "Checking and Signing Content",
+      "amet": "Continuous Improvement lorem ipsum sit dollor amet",
+      "share": "Do not share links with email.",
+      "docText": "If you share a link with this message, unauthorized third parties can verify and sign the content. Signing is not responsible for any problems that occur at this time.",
+      "replying": "This message is sent only and can not be replying.",
+      "footer": "For inquiries, please use the customer center . 2019. Coffesign Inc. All rights reserved. Terms of Use | Privacy Policy | Service center"
+    }
+  },
+  "sign": {
+    "check": {
+      "documents": "DOCUMENTS",
+      "amet": "Continuous Improvement lorem ipsum sit dollor amet.doc",
+      "later": "Sign later",
+      "start": "Start Signing"
+    },
+    "complition": {
+      "title": "All signatures are complete.",
+      "content": "An audit trail certificate with completed documents and signature progress history has been emailed. Please check the attached file or all of the emails in the signature.",
+      "home": "Home"
+    },
+    "signing": {
+      "arrow": "Who fills this out?",
+      "later": "Finish later",
+      "finish": "Finish",
+      "modal": {
+        "title": "Accept all signatures for electronic signatures",
+        "electronic": "I agree to the legal validity of electronic signatures and electronic documents.",
+        "accepted": "The electronic document sent after the signing is accepted as original.",
+        "signatures": "We have verified that all signers have the right to have electronic signatures.",
+        "accordance": "I agree in accordance with the Electronic Signature",
+        "term": "Terms of Use",
+        "text": "and Electronic Signature",
+        "privacy": "Privacy Policy",
+        "agree": "I agree and sign it",
+        "minutes": "Please wait few minutes",
+        "process": "this process takes 1-3 minutes"
+      }
+    }
+  },
+  "signature": {
+    "title": "Signature and Stamp",
+    "headerSign": "Your signature and initials",
+    "commentSign": "Add Signature/Initial from here.",
+    "headerStamp": "Your stamp",
+    "commentStamp": "Create Personnel/Corporate from here.",
+    "modal": {
+      "titleSign": "Create Your Signature",
+      "titleStamp": "Create Your Stamp",
+      "tab": {
+        "choose": "Choose",
+        "draw": "Draw",
+        "type": "Type",
+        "upload": "Upload",
+        "personnelSeal": "Personnel",
+        "corporateSeal": "Corporate"
+      },
+      "drawSign": "Draw Signature",
+      "drawInitials": "Draw Initial",
+      "uploadSign": "Upload Signature",
+      "uploadInitials": "Upload Initials",
+      "uploadStamp": "Upload Stamp",
+      "placeholderFullname": "Enter your full name",
+      "placeholderInitials": "Enter your initial name",
+      "placeholderStamp": "Enter name and press the Generate button",
+      "signby": "CoffeSigned by:",
+      "tncSign": "By clicking Create, I agree that the signature and initials will be the electronic representation of my signature and initials for all purposes when I (or my agent) use them on envelopes, including legally binding contracts - just the same as a pen-and-paper signature or initial.",
+      "tncStamp": "By clicking Adding, I agree that the Stamp will be the electronic representation of my Stamp for all purposes when I (or my agent) use them on envelopes, including legally binding contracts - just the same as a pen-and-paper stamp.",
+      "adding": "Adding"
+    },
+    "button": {
+      "addSign": "Add Signature/Initials",
+      "addStamp": "Add Stamp",
+      "edit": "Edit",
+      "download": "Download",
+      "setdefault": "Set Default",
+      "default": "Default",
+      "delete": "Delete",
+      "generate": "Generate",
+      "create": "Create",
+      "reset": "Reset",
+      "replace": "Replace",
+      "remove": "Remove",
+      "cancel": "Cancel"
+    }
+  },
+  "containers": {
+    "aside": {
+      "today": "Today",
+      "with": "Meeting with",
+      "lucas": "Lucas",
+      "palo": "Palo Alto, CA",
+      "skype": "Skype with",
+      "megan": "Megan",
+      "online": "On-line",
+      "tomorrow": "Tomorrow",
+      "project": "New UI Project",
+      "deadline": "deadline",
+      "creative": "creativeLabs HQ",
+      "startups": "Startups.Garden",
+      "meetup": "Meetup",
+      "team": "Team meeting",
+      "lukasz": "Lukasz Holeczek",
+      "amet": "Lorem ipsum dolor sit amet",
+      "incididunt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...",
+      "settings": "Settings",
+      "option": "Option",
+      "aliqua": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "disabled": "Disabled option.",
+      "utilization": "System Utilization",
+      "cpu": "CPU Usage",
+      "cores": "348 Processes. 1/4 Cores.",
+      "memory": "Memory Usage",
+      "usage": "Usage"
+    },
+    "dropdown": {
+      "title": "your dropdown",
+      "one": "one",
+      "two": "two",
+      "three": "three"
+    }
+  },
+  "aside": "Aside"
+}

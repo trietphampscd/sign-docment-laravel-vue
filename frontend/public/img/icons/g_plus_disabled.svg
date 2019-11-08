@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="g_plus_disabled" width="50" height="50" viewBox="0 0 50 50">
+    <defs>
+        <style>
+            .cls-1{fill:#686868}.cls-2{fill:#fff}
+        </style>
+    </defs>
+    <rect id="Rectangle_87" width="50" height="50" class="cls-1" data-name="Rectangle 87" rx="5"/>
+    <g id="google-plus_1_" data-name="google-plus (1)" transform="translate(8 -68.519)">
+        <path id="Path_737" d="M12.231 95.789h5.446a6.854 6.854 0 1 1-1.88-7.323.758.758 0 0 0 1.02 0l2-1.857a.731.731 0 0 0 0-1.072A11.185 11.185 0 0 0 0 93.441a11.076 11.076 0 0 0 11.152 11.078 11.087 11.087 0 0 0 11.134-10.381c.009-.073.014-2.525.014-2.525H12.231a.742.742 0 0 0-.747.737v2.7a.742.742 0 0 0 .747.739z" class="cls-2" data-name="Path 737"/>
+        <path id="Path_738" d="M330.752 166.538v-2.676a.655.655 0 0 0-.655-.655h-2.252a.655.655 0 0 0-.655.655v2.676h-2.676a.655.655 0 0 0-.655.655v2.252a.655.655 0 0 0 .655.655h2.676v2.676a.655.655 0 0 0 .655.655h2.255a.655.655 0 0 0 .655-.655V170.1h2.676a.655.655 0 0 0 .655-.655v-2.252a.655.655 0 0 0-.655-.655z" class="cls-2" data-name="Path 738" transform="translate(-300.082 -74.705)"/>
+    </g>
+</svg>

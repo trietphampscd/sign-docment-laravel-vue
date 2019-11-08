@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+    <defs>
+        <style>
+            .cls-1{fill:#775649}
+        </style>
+    </defs>
+    <g id="plus_active" transform="translate(-896 -219)">
+        <rect id="Rectangle_326" width="15" height="3" class="cls-1" data-name="Rectangle 326" rx="1.5" transform="translate(896 225)"/>
+        <rect id="Rectangle_327" width="15" height="3" class="cls-1" data-name="Rectangle 327" rx="1.5" transform="rotate(90 343 562)"/>
+    </g>
+</svg>

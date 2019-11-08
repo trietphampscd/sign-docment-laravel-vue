@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="18" viewBox="0 0 28 18">
+    <defs>
+        <style>
+            .cls-1{fill:#ded6d3}.cls-2{fill:#775649}.cls-3{fill:#ef634c}
+        </style>
+    </defs>
+    <g id="other_cards" data-name="other cards" transform="translate(0 -8)">
+        <path id="XMLID_130_" d="M26.447 26H1.553A1.473 1.473 0 0 1 0 24.621V9.379A1.473 1.473 0 0 1 1.553 8h24.894A1.474 1.474 0 0 1 28 9.379v15.242A1.474 1.474 0 0 1 26.447 26" class="cls-1"/>
+        <path id="XMLID_129_" d="M0 0h4.345v2.897H0z" class="cls-2" transform="translate(2.414 20.167)"/>
+        <path id="XMLID_128_" d="M0 0h4.345v2.897H0z" class="cls-2" transform="translate(8.69 20.167)"/>
+        <path id="XMLID_127_" d="M0 0h4.345v2.897H0z" class="cls-2" transform="translate(14.966 20.167)"/>
+        <path id="XMLID_126_" d="M0 0h4.345v2.897H0z" class="cls-2" transform="translate(21.241 20.167)"/>
+        <path id="Rectangle_348" d="M0 0h28v4H0z" class="cls-3" data-name="Rectangle 348" transform="translate(0 12)"/>
+    </g>
+</svg>

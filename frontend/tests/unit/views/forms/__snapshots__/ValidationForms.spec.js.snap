@@ -1,0 +1,354 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ValidationForms.vue renders correctly 1`] = `
+<div
+  class="animated fadeIn"
+>
+  <bcard-stub
+    bodytag="div"
+    footertag="div"
+    headertag="div"
+    nobody="true"
+    subtitletag="h6"
+    tag="div"
+    titletag="h4"
+  >
+    <bcardheader-stub
+      headertag="div"
+    >
+      <i
+        class="icon-note"
+      />
+       Form Validation
+      
+      <a
+        class="badge badge-danger"
+        href="https://coreui.io/pro/vue/"
+      >
+        CoreUI Pro
+      </a>
+       
+      <div
+        class="card-header-actions"
+      >
+        <a
+          class="card-header-action"
+          href="https://github.com/monterail/vuelidate"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          <small
+            class="text-muted"
+          >
+            docs
+          </small>
+        </a>
+      </div>
+    </bcardheader-stub>
+     
+    <bcardbody-stub
+      bodytag="div"
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <blink-stub
+        activeclass="active"
+        event="click"
+        exactactiveclass="active"
+        href="https://monterail.github.io/vuelidate"
+        rel="noreferrer noopener"
+        routertag="a"
+        target="_blank"
+      >
+        Vuelidate
+      </blink-stub>
+       provides 
+      <cite>
+        Simple, lightweight model-based validation for Vue.js
+      </cite>
+       
+      <hr />
+       
+      <brow-stub
+        tag="div"
+      >
+        <bcol-stub
+          lg="6"
+          tag="div"
+        >
+          <bform-stub
+            novalidate="true"
+          >
+            <bformgroup-stub
+              breakpoint="sm"
+              id="firstNameInputGroup1"
+              label="First Name"
+              labelcols="3"
+              labelfor="firstname"
+            >
+              <bforminput-stub
+                aria-describedby="input1LiveFeedback1"
+                autocomplete="given-name"
+                autofocus=""
+                id="firstName"
+                placeholder="First Name"
+                state="true"
+                type="text"
+                value=""
+              />
+               
+              <bforminvalidfeedback-stub
+                id="input1LiveFeedback1"
+                tag="div"
+              >
+                
+                This is a required field and must be at least 2 characters
+              
+              </bforminvalidfeedback-stub>
+            </bformgroup-stub>
+             
+            <bformgroup-stub
+              breakpoint="sm"
+              id="lastNameInputGroup2"
+              label="Last Name"
+              labelcols="3"
+              labelfor="lastName"
+            >
+              <bforminput-stub
+                aria-describedby="input1LiveFeedback2"
+                autocomplete="family-name"
+                id="lastName"
+                placeholder="Last Name"
+                state="true"
+                type="text"
+                value=""
+              />
+               
+              <bforminvalidfeedback-stub
+                id="input1LiveFeedback2"
+                tag="div"
+              >
+                
+                This is a required field and must be at least 1 character
+              
+              </bforminvalidfeedback-stub>
+            </bformgroup-stub>
+             
+            <bformgroup-stub
+              breakpoint="sm"
+              id="userNameInputGroup3"
+              label="User Name"
+              labelcols="3"
+              labelfor="userName"
+            >
+              <bforminput-stub
+                aria-describedby="input1LiveFeedback3"
+                autocomplete="username"
+                id="userName"
+                placeholder="User Name"
+                state="true"
+                type="text"
+                value=""
+              />
+               
+              <bforminvalidfeedback-stub
+                id="input1LiveFeedback3"
+                tag="div"
+              >
+                
+                This is a required field and must be at least 5 characters
+              
+              </bforminvalidfeedback-stub>
+            </bformgroup-stub>
+             
+            <bformgroup-stub
+              breakpoint="sm"
+              id="emailInputGroup4"
+              label="Email"
+              labelcols="3"
+              labelfor="email"
+            >
+              <bforminput-stub
+                aria-describedby="input1LiveFeedback4"
+                autocomplete="email"
+                id="email"
+                placeholder="Email"
+                state="true"
+                type="email"
+                value=""
+              />
+               
+              <bforminvalidfeedback-stub
+                id="input1LiveFeedback4"
+                tag="div"
+              >
+                
+                This is a required field and must be valid e-mail address
+              
+              </bforminvalidfeedback-stub>
+            </bformgroup-stub>
+             
+            <brow-stub
+              tag="div"
+            >
+              <bcol-stub
+                md="6"
+                tag="div"
+              >
+                <bformgroup-stub
+                  breakpoint="sm"
+                  id="passInputGroup5"
+                  label="Password"
+                  labelcols="3"
+                  labelfor="password"
+                >
+                  <bforminput-stub
+                    aria-describedby="input1LiveFeedback5"
+                    autocomplete="new-password"
+                    id="password"
+                    placeholder="Password"
+                    state="true"
+                    type="password"
+                    value=""
+                  />
+                   
+                  <bforminvalidfeedback-stub
+                    id="input1LiveFeedback5"
+                    tag="div"
+                  >
+                    
+                    Required password containing at least: number, uppercase and lowercase letter, 8 characters
+                  
+                  </bforminvalidfeedback-stub>
+                </bformgroup-stub>
+              </bcol-stub>
+               
+              <bcol-stub
+                md="6"
+                tag="div"
+              >
+                <bformgroup-stub
+                  breakpoint="sm"
+                  id="confPassInputGroup6"
+                  label="Confirm password"
+                  labelcols="3"
+                  labelfor="confirm_password"
+                >
+                  <bforminput-stub
+                    aria-describedby="input1LiveFeedback6"
+                    autocomplete="new-password"
+                    id="confirm_password"
+                    placeholder="Confirm password"
+                    state="true"
+                    type="password"
+                    value=""
+                  />
+                   
+                  <bforminvalidfeedback-stub
+                    id="input1LiveFeedback6"
+                    tag="div"
+                  >
+                    
+                    Passwords must match
+                  
+                  </bforminvalidfeedback-stub>
+                </bformgroup-stub>
+              </bcol-stub>
+            </brow-stub>
+             
+            <bformgroup-stub
+              breakpoint="sm"
+              invalidfeedback="You must accept before submitting"
+              labelcols="3"
+              state="true"
+            >
+              <bformcheckbox-stub
+                aria-describedby="input1LiveFeedback7"
+                id="accept"
+                state="true"
+              >
+                <strong>
+                  I accept the terms of use
+                </strong>
+              </bformcheckbox-stub>
+            </bformgroup-stub>
+             
+            <bbutton-stub
+              activeclass="active"
+              disabled="true"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="submit"
+              variant="primary"
+            >
+              
+              Submit
+            
+            </bbutton-stub>
+             
+            <bbutton-stub
+              activeclass="active"
+              class="ml-1"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="submit"
+              variant="success"
+            >
+              
+              Validate
+            
+            </bbutton-stub>
+             
+            <bbutton-stub
+              activeclass="active"
+              class="ml-1"
+              disabled="true"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="reset"
+              variant="danger"
+            >
+              Reset
+            </bbutton-stub>
+          </bform-stub>
+           
+          <br />
+        </bcol-stub>
+         
+        <bcol-stub
+          lg="6"
+          tag="div"
+        >
+          <bcard-stub
+            bgvariant="secondary"
+            bodytag="div"
+            footertag="div"
+            headertag="div"
+            subtitletag="h6"
+            tag="div"
+            titletag="h4"
+          >
+            <pre>
+              {
+    "firstName": "",
+    "lastName": "",
+    "userName": "",
+    "email": "",
+    "password": "",
+    "confirmPassword": "",
+    "accept": false
+}
+            </pre>
+          </bcard-stub>
+        </bcol-stub>
+      </brow-stub>
+    </bcardbody-stub>
+  </bcard-stub>
+</div>
+`;

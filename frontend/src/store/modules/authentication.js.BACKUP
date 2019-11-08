@@ -1,0 +1,120 @@
+import JwtService from '../../mixins/jwt.service'
+import { authentication as AuthAPI } from '../../mixins/authentication'
+
+import { 
+  AUTH_REQUEST,
+  AUTH_CHECK,
+  AUTH_SUCCESS, 
+  AUTH_DESTROY, 
+  AUTH_ERROR, 
+  AUTH_MODAL_BTN, 
+  AUTH_SET_FB 
+} from '../actions.type'
+import { 
+  SET_AUTH, 
+  SET_USER, 
+  PURGE_AUTH, 
+  SET_ERROR, 
+  SET_MODAL_BTN, 
+  SET_FB 
+} from '../mutations.type'
+
+const isLogin = !!(JwtService.getToken())
+
+const state = isLogin ? {
+  authenticated: false,
+  user: {},
+  token: JwtService.getToken(),
+  FB: null,
+  errors: [],
+  button: null
+} : {
+  authenticated: false,
+  user: {},
+  token: null,
+  FB: null,
+  errors: [],
+  button: null
+}
+
+const getters = {
+  isAuthenticated: state => !!state.authenticated,
+  currentUser: state => state.user,
+  authToken: state => state.token,
+  FB: state => state.FB,
+  errors: state => state.errors,
+  button: state => state.button
+}
+
+const actions = {
+  [AUTH_REQUEST]: (context, token) => {
+    JwtService.saveToken(token.access_token)
+    context.commit(SET_AUTH, token.access_token)
+    
+    context.dispatch(AUTH_CHECK)
+  },
+  [AUTH_CHECK]: (context) => {
+    return new Promise((resolve, reject) => {
+      AuthAPI.methods.user()
+        .then(response => {
+          context.dispatch(AUTH_SUCCESS, response.data.user)
+          resolve(response)
+        })
+        .catch(error => {
+          context.dispatch(AUTH_ERROR, error)
+          reject(error)
+        })
+    })
+  },
+  [AUTH_SUCCESS](context, user) {
+    context.commit(SET_USER, user)
+  },
+  [AUTH_DESTROY](context) {
+    JwtService.destroyToken()
+    context.commit(PURGE_AUTH)
+  },
+  [AUTH_ERROR](context, errors) {
+    JwtService.destroyToken()
+    context.commit(SET_ERROR, errors)
+  },
+  [AUTH_MODAL_BTN](context, button) {
+    context.commit(SET_MODAL_BTN, button)
+  },
+  [AUTH_SET_FB](context, fb) {
+    context.commit(SET_FB, fb)
+  }
+}
+
+const mutations = {
+  [SET_AUTH](state, token) {
+    state.token = token
+    state.errors = []
+  },
+  [SET_USER](state, user) {
+    state.authenticated = true
+    state.user = user
+  },
+  [SET_ERROR](state, errors) {
+    // state.authenticated = true
+    state.errors = errors
+  },
+  [SET_MODAL_BTN](state, button) {
+    state.button = button
+  },
+  [PURGE_AUTH](state) {
+    state.authenticated = false
+    state.token = null
+    state.user = {}
+    state.errors = []
+  },
+  [SET_FB](state, fb) {
+    state.FB = fb
+  }
+}
+
+export default {
+  state,
+  getters,
+  mutations,
+  actions
+}

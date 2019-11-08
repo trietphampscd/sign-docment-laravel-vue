@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;stroke:#efece0;stroke-width:2px}.cls-2{fill:#3089f3}.cls-3{fill:#00a76a}.cls-4{fill:#fdd446}.cls-5{stroke:none}.cls-6{fill:none}
+        </style>
+    </defs>
+    <g id="google-drive">
+        <g id="Rectangle_87" class="cls-1" data-name="Rectangle 87">
+            <rect width="50" height="50" class="cls-5" rx="5"/>
+            <rect width="48" height="48" x="1" y="1" class="cls-6" rx="4"/>
+        </g>
+        <g id="google-drive-2" data-name="google-drive" transform="translate(10 11)">
+            <path id="Path_760" d="M107.14 336.842H85.389l-4.547 8.965h21.367z" class="cls-2" data-name="Path 760" transform="translate(-76.14 -317.807)"/>
+            <path id="Path_761" d="M10.41 31.439L0 49.359l4.931 10.08 10.026-19.712z" class="cls-3" data-name="Path 761" transform="translate(0 -31.439)"/>
+            <path id="Path_762" d="M180.529 31.439h-9.862l10.41 19.051h10.41z" class="cls-4" data-name="Path 762" transform="translate(-160.486 -31.439)"/>
+        </g>
+    </g>
+</svg>

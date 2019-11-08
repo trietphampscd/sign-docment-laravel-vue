@@ -1,0 +1,55 @@
+.payment-container {
+  .user-sidebar-folders {
+    border-radius: 5px;
+    box-shadow: 0 4px 20px 0 rgba(65, 48, 42, 0.15);
+    background-color: rgba(#ffffff, 0.2);
+    padding: 10px;
+    padding-left: 0;
+  }
+
+  .your-cur-plan {
+    @media (max-width: 720px) {
+      display: none;
+    }
+  }
+  .sign-doc-type {
+    display: flex;
+    margin-left: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 180px;
+    color: #9ea0a5;
+
+    @media (max-width: 530px) {
+      // flex-direction: column;
+      min-width: 80px;
+    }
+
+    .selected {
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 1.36;
+      color: #775649;
+      display: flex;
+      align-items: center;
+      height: 54px;
+      border-bottom: solid 3px #775649;
+    }
+  }
+
+}
+
+.rename-folder-modal {
+  padding: 20px;
+  text-align: center;
+  .title {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.33;
+    text-align: center;
+    color: #2e221e;
+    margin-bottom: 20px;
+  }
+}

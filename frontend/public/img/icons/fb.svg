@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="fb" width="50" height="50" viewBox="0 0 50 50">
+    <defs>
+        <style>
+            .cls-1{fill:#475993}.cls-2{fill:#fff}
+        </style>
+    </defs>
+    <rect id="Rectangle_87" width="50" height="50" class="cls-1" data-name="Rectangle 87" rx="5"/>
+    <g id="facebook-letter-logo_1_" data-name="facebook-letter-logo (1)" transform="translate(-95.696 10.999)">
+        <path id="Facebook" d="M117.506 5.424v3.855H114.7v4.714h2.81V28h5.772V13.993h3.873s.363-2.26.539-4.732H123.3V6.038a1.365 1.365 0 0 1 1.251-1.13h3.149V0h-4.28c-6.057 0-5.914 4.719-5.914 5.424z" class="cls-2"/>
+    </g>
+</svg>

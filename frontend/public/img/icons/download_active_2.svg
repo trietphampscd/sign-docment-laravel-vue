@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+    <defs>
+        <style>
+            .cls-1{fill:#775649}
+        </style>
+    </defs>
+    <g id="download_active" transform="translate(-.489)">
+        <path id="Path_41" d="M10.823 19.1v2.834H2.155V19.1H.489v3.667a.833.833 0 0 0 .834.833h10.332a.833.833 0 0 0 .834-.833V19.1z" class="cls-1" data-name="Path 41" transform="translate(0 -11.604)"/>
+        <path id="Path_42" d="M11.025 7.625L8.64 4.743s-.363-.343.03-.343h1.344V.2s-.053-.2.254-.2h1.892c.222 0 .217.172.217.172v4.142h1.241c.478 0 .118.359.118.359s-2.029 2.694-2.312 2.977a.265.265 0 0 1-.399-.025z" class="cls-1" data-name="Path 42" transform="translate(-4.689)"/>
+    </g>
+</svg>

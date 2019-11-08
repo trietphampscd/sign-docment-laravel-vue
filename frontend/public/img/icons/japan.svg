@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="japan" width="21" height="15" viewBox="0 0 21 15">
+    <defs>
+        <style>
+            .cls-1{fill:#eee}.cls-2{fill:#ed1b2f}
+        </style>
+    </defs>
+    <g id="Group_1147" data-name="Group 1147">
+        <g id="Group_1146" data-name="Group 1146">
+            <path id="Path_804" d="M21 19.577a2.321 2.321 0 0 1-2.333 2.308H2.333A2.321 2.321 0 0 1 0 19.577V9.192a2.321 2.321 0 0 1 2.333-2.307h16.334A2.321 2.321 0 0 1 21 9.192v10.385z" class="cls-1" data-name="Path 804" transform="translate(0 -6.885)"/>
+            <path id="Path_805" d="M49.417 33.547a4.084 4.084 0 1 1-4.083-4.162 4.123 4.123 0 0 1 4.083 4.162" class="cls-2" data-name="Path 805" transform="translate(-34.833 -26.047)"/>
+        </g>
+    </g>
+</svg>

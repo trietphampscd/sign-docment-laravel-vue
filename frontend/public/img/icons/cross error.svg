@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+    <defs>
+        <style>
+            .cls-1{fill:#d22a20}
+        </style>
+    </defs>
+    <g id="cross_error" data-name="cross error">
+        <g id="c142_x">
+            <path id="Path_803" d="M7 0a7 7 0 1 0 7 7 7 7 0 0 0-7-7zm3.01 8.9l-1.116 1.109A25.7 25.7 0 0 0 7 8.117a26.07 26.07 0 0 0-1.9 1.892L3.989 8.9A21.846 21.846 0 0 0 5.883 7a21.549 21.549 0 0 0-1.894-1.9L5.1 3.991S6.883 5.884 7 5.884s1.9-1.893 1.9-1.893l1.115 1.116A25.634 25.634 0 0 0 8.114 7c0 .128 1.895 1.9 1.895 1.9z" class="cls-1" data-name="Path 803"/>
+        </g>
+    </g>
+</svg>

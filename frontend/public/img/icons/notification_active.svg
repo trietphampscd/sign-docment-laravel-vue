@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="20.955" viewBox="0 0 21 20.955">
+    <defs>
+        <style>
+            .cls-1{fill:#9ea0a5}.cls-2{fill:#775649}
+        </style>
+    </defs>
+    <g id="notification_active" transform="translate(.001)">
+        <path id="Path_35" d="M5.628 18.615v.016a2.372 2.372 0 0 0 4.743 0v-.016z" class="cls-1" data-name="Path 35"/>
+        <path id="Subtraction_17" d="M14.888 17.337H1.111a1.118 1.118 0 0 1-.984-.577 1.054 1.054 0 0 1 .065-1.11l2.2-3.135V8.6a5.489 5.489 0 0 1 4.5-5.333V2.065a1.1 1.1 0 0 1 2.2 0v1.207l.108.022a7.008 7.008 0 0 0 4.4 8.286v.936l2.2 3.135a1.052 1.052 0 0 1 .064 1.11 1.117 1.117 0 0 1-.976.576z" class="cls-1" data-name="Subtraction 17"/>
+        <circle id="Ellipse_19" cx="5" cy="5" r="5" class="cls-2" data-name="Ellipse 19" transform="translate(10.999)"/>
+    </g>
+</svg>

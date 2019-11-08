@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="mastercard" width="28" height="18" viewBox="0 0 28 18">
+    <defs>
+        <style>
+            .cls-1{fill:#ffbc4f}.cls-2{fill:#ff7d4f}
+        </style>
+    </defs>
+    <path id="Path_797" d="M9 0a9 9 0 1 0 9 9 9.013 9.013 0 0 0-9-9zm0 0" class="cls-1" data-name="Path 797"/>
+    <path id="Path_798" d="M191.685 0a9 9 0 1 0 9 9 9.013 9.013 0 0 0-9-9zm0 0" class="cls-2" data-name="Path 798" transform="translate(-172.69)"/>
+    <g id="Group_1101" data-name="Group 1101" transform="translate(9.99 5.795)">
+        <path id="Path_799" d="M190.619 204.5a.82.82 0 0 0-.82-.82h-2.431a8.929 8.929 0 0 0 .574 1.641h1.858a.82.82 0 0 0 .819-.821zm0 0" class="cls-1" data-name="Path 799" transform="translate(-187.111 -198.337)"/>
+        <path id="Path_800" d="M188.54 106.871a.82.82 0 0 0-.82-.82h-2.1a8.927 8.927 0 0 0-.454 1.641h2.551a.82.82 0 0 0 .82-.82zm0 0" class="cls-1" data-name="Path 800" transform="translate(-185.032 -106.051)"/>
+        <path id="Path_801" d="M188.444 155.683a.82.82 0 0 0-.82-.82H182.7a9.47 9.47 0 0 0-.016.535 9.042 9.042 0 0 0 .068 1.106h4.876a.82.82 0 0 0 .816-.821zm0 0" class="cls-1" data-name="Path 801" transform="translate(-182.68 -152.194)"/>
+    </g>
+</svg>

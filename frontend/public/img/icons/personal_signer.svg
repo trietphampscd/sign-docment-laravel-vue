@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14">
+    <defs>
+        <style>
+            .cls-1{fill:#9ea0a5}
+        </style>
+    </defs>
+    <g id="personal_signer" transform="translate(0 -1.094)">
+        <path id="Path_771" d="M103.371 280.43h8.661v4.265h-8.661zm0 0" class="cls-1" data-name="Path 771" transform="translate(-100.18 -269.601)"/>
+        <path id="Path_772" d="M0 282.561l2.132 2.132H2.6v-4.265h-.468zm0 0" class="cls-1" data-name="Path 772" transform="translate(0 -269.6)"/>
+        <path id="Path_773" d="M391.816 280.43h1.066v4.265h-1.066zm0 0" class="cls-1" data-name="Path 773" transform="translate(-379.517 -269.601)"/>
+        <path id="Path_774" d="M452.44 280.43h-.533v4.265h.533a1.6 1.6 0 0 0 1.6-1.6v-1.066a1.6 1.6 0 0 0-1.6-1.599zm0 0" class="cls-1" data-name="Path 774" transform="translate(-438.039 -269.601)"/>
+        <path id="Path_775" d="M173.5 6.042a3.021 3.021 0 1 0-3.021-3.021 3.024 3.024 0 0 0 3.021 3.021zm0 0" class="cls-1" data-name="Path 775" transform="translate(-164.904 1.094)"/>
+        <path id="Path_776" d="M147.761 155.078a4.082 4.082 0 0 1-6.489 0 2.307 2.307 0 0 0-.842 1.783v1.6h8.17v-1.6a2.307 2.307 0 0 0-.843-1.783zm0 0" class="cls-1" data-name="Path 776" transform="translate(-135.924 -148.525)"/>
+    </g>
+</svg>

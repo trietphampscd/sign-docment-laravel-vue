@@ -1,0 +1,224 @@
+.control-actions {
+  button {
+    height: 43px;
+  }
+  select {
+    height: 43px !important;
+  }
+}
+.sign-items {
+  width: 100%;
+  height: 200px;
+  background: gray;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.sign-history {
+  display: flex;
+  flex-wrap: wrap;
+  .doc-control {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    // max-width: 145px;
+    margin: 5px 8px;
+    flex-direction: column;
+    &:hover {
+      cursor: pointer;
+    }
+    .doc-item {
+      margin-bottom: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      position: relative;
+      .doc-item-no {
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        width: 25px;
+        height: 25px;
+        background-color: 0;
+        border: solid 2px white;
+        color: white;
+        font-weight: bold;
+        background: #ee6723;
+        border-radius: 50%;
+        text-align: center;
+      }
+      .doc-item-control {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        // width: 125px;
+        height: 35px;
+        border-radius: 4px;
+        border: solid 1px black;
+        background-color: #ffffff;
+        margin: 0 2px;
+        padding: 0 20px;
+      }
+      i.control {
+        color: #9ea0a5;
+        &:hover {
+          cursor: pointer;
+          color: #8a6454;
+        }
+      }
+
+      .color-signature {
+        color: #ee9964;
+        border-color: #ee9964;
+      }
+      .color-full-name {
+        color: #60ccd8;
+        border-color: #60ccd8;
+      }
+      .color-company {
+        color: #d5c45c;
+        border-color: #d5c45c;
+      }
+      .color-title {
+        color: #ee9964;
+        border-color: #ee9964;
+      }
+      .color-text {
+        color: #60ccd8;
+        border-color: #60ccd8;
+      }
+      .color-date-signed {
+        color: #d5c45c;
+        border-color: #d5c45c;
+      }
+      .color-attachment {
+        color: #ee9964;
+        border-color: #ee9964;
+      }
+      .icon {
+        color: #dedede;
+        width: 28px;
+        height: 28px;
+        font-size: 23px;
+        margin-top: 7px;
+      }
+    }
+    .who-fill {
+      width: 100%;
+      padding: 15px 10px;
+      border: solid 1px #ebebeb;
+      background-color: #fcfafa;
+      position: relative;
+      input {
+        height: 30px;
+      }
+      .add-one-more {
+        color: #9ea0a5;
+      }
+      .arrow-popover {
+        position: absolute;
+        display: block;
+        width: 1rem;
+        height: 0.5rem;
+        margin: 0 0.3rem;
+        left: calc(50% - 8px);
+        top: -8px;
+        &::before,
+        &::after {
+          position: absolute;
+          display: block;
+          content: "";
+          border-color: transparent;
+          border-style: solid;
+        }
+        &::before {
+          top: 0;
+          border-width: 0 0.5rem 0.5rem 0.5rem;
+          border-bottom-color: rgba(0, 0, 0, 0.25);
+        }
+        &::after {
+          top: 1px;
+          border-width: 0 0.5rem 0.5rem 0.5rem;
+          border-bottom-color: #fff;
+        }
+      }
+    }
+  }
+}
+#sign-agree-modal{
+  .modal-dialog {
+    width: 688px;
+    
+    @media (max-width: 600px) {
+      width: unset;
+    }
+    .sign-agree-modal {
+      padding: 60px;
+      
+      @media (max-width: 600px) {
+        padding: 20px;
+        padding-top: 0;
+      }
+      padding-top: 0;
+      background: white;
+      .title {  
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 1.35;
+        text-align: center;
+        color: #41302a;
+        margin-bottom: 25px;
+        margin-top: 25px;
+      }
+      .agree-items {
+        .agree-item {
+          margin-bottom: 30px;
+          display: flex;
+          .agree-text {
+            font-size: 16px;
+            line-height: 1.38;
+            text-align: left;
+            color: #9ea0a5;
+            button {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#sign-waiting-modal{
+  .modal-dialog {
+    width: 688px;
+    
+    @media (max-width: 600px) {
+      width: unset;
+    }
+    .sign-waiting-modal {
+      padding: 60px 100px;
+      
+      background: white;
+      display: flex;
+      border-radius: 5px;
+      
+      @media (max-width: 600px) {
+        padding: 20px;
+        flex-direction: column;
+      }
+      .title {    
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 1.35;
+        text-align: left;
+        color: #41302a;
+        margin-left: 50px;
+        @media (max-width: 600px) {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+

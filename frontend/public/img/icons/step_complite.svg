@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+    <defs>
+        <style>
+            .cls-1{fill:#ef634c;stroke:#ef634c;stroke-width:2px}.cls-2{fill:#fff}.cls-3{stroke:none}.cls-4{fill:none}
+        </style>
+    </defs>
+    <g id="step_complite" transform="translate(-1127 -224)">
+        <g id="Ellipse_734" class="cls-1" data-name="Ellipse 734" transform="translate(1127 224)">
+            <circle cx="10.5" cy="10.5" r="10.5" class="cls-3"/>
+            <circle cx="10.5" cy="10.5" r="9.5" class="cls-4"/>
+        </g>
+        <g id="correct-symbol_1_" data-name="correct-symbol (1)" transform="translate(1131 178.322)">
+            <path id="Path_769" d="M12.765 53.058l-1.141-1.145a.808.808 0 0 0-1.141 0l-5.5 5.53-2.467-2.482a.775.775 0 0 0-.57-.236.775.775 0 0 0-.57.236L.235 56.106a.815.815 0 0 0 0 1.145L3.271 60.3l1.141 1.145a.808.808 0 0 0 1.141 0l1.14-1.145 6.072-6.1a.815.815 0 0 0 0-1.145z" class="cls-2" data-name="Path 769"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,592 @@
+@import url("https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield");
+@font-face { font-family: 'KimNamyun'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KimNamyun.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'KCC-eunyoung'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Goyang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Goyang.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'SangSangFlowerRoad'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/SangSangFlowerRoad.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'InkLipquid'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'OTEnjoystoriesBA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Dovemayo-Medium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Medium.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'SDMiSaeng'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SDMiSaeng.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'HSGyoulnoonkot'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSGyoulnoonkot.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face {
+  font-family: "4990810";
+  src: 
+  url("/fonts/kr/4990810.ttf") format("truetype"),
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css); .jejuhallasan * { font-family: 'Jeju Hallasan', cursive; }
+@font-face {
+  font-family: "Badhead Typeface";
+  src: 
+  url("/fonts/en/Badhead Typeface.otf") format("opentype"),
+  url("/fonts/en/Badhead Typeface.ttf") format("truetype"),
+}
+@font-face {
+  font-family: "Banthers";
+  src: 
+  url("/fonts/en/Banthers.otf") format("opentype"),
+  url("/fonts/en/Banthers.ttf") format("truetype"),
+}
+@font-face {
+  font-family: "Connoisseurs";
+  src: 
+  url("/fonts/en/Connoisseurs.otf") format("opentype"),
+  url("/fonts/en/Connoisseurs.ttf") format("truetype"),
+}
+@font-face {
+  font-family: "Cutepunk_Regular";
+  src: 
+  url("/fonts/en/Cutepunk_Regular.otf") format("opentype"),
+}
+@font-face {
+  font-family: "Elrotex Basic";
+  src: 
+  url("/fonts/en/Elrotex Basic.otf") format("opentype"),
+  url("/fonts/en/Elrotex Basic.ttf") format("truetype"),
+}
+@font-face {
+  font-family: "Elrotex Swash";
+  src: 
+  url("/fonts/en/Elrotex Swash.otf") format("opentype"),
+  url("/fonts/en/Elrotex Swash.ttf") format("truetype"),
+}
+@font-face {
+  font-family: "GreatVibes-Regular";
+  src: 
+  url("/fonts/en/GreatVibes-Regular.ttf") format("truetype"),
+}
+@font-face {
+  font-family: "KLSweetPineappleRegular";
+  src: 
+  url("/fonts/en/KLSweetPineappleRegular.ttf") format("truetype"),
+}
+@font-face {
+  font-family: "Mightype Script";
+  src: 
+  url("/fonts/en/Mightype Script.otf") format("opentype"),
+}
+@font-face {
+  font-family: "pops_08_REGULAR";
+  src: 
+  url("/fonts/en/pops_08_REGULAR.ttf") format("truetype"),
+}
+@font-face {
+  font-family: "somethingwild-Regular";
+  src: 
+  url("/fonts/en/somethingwild-Regular.otf") format("opentype"),
+  url("/fonts/en/somethingwild-Regular.ttf") format("truetype"),
+}
+
+////////////////////// japan font ///////////////////////////
+
+@font-face {
+  font-family: "AsobiMemogaki-Regular-1-01";
+  src: 
+  url("/fonts/jp/AsobiMemogaki-Regular-1-01.ttf") format("truetype"),
+}
+@font-face {
+  font-family: "crayon_1-1";
+  src: 
+  url("/fonts/jp/crayon_1-1.ttf") format("truetype"),
+}
+@font-face {
+  font-family: "RiiMonakaBLt";
+  src: 
+  url("/fonts/jp/RiiMonakaBLt.otf") format("opentype"),
+}
+@font-face {
+  font-family: "RiiPopkkR";
+  src: 
+  url("/fonts/jp/RiiPopkkR.otf") format("opentype"),
+}
+@font-face {
+  font-family: "RiiT_F";
+  src: 
+  url("/fonts/jp/RiiT_F.otf") format("opentype"),
+}
+@font-face {
+  font-family: "ShigotoMemogaki-Regular-1-01";
+  src: 
+  url("/fonts/jp/ShigotoMemogaki-Regular-1-01.ttf") format("truetype"),
+}
+@font-face {
+  font-family: "sjis_sp_setofont";
+  src: 
+  url("/fonts/jp/sjis_sp_setofont.ttf") format("truetype"),
+}
+@font-face {
+  font-family: "GenEiGothicN-Regular";
+  src: 
+  url("/fonts/jp/GenEiGothicN-Regular.otf") format("opentype"),
+}
+@font-face {
+  font-family: "GenEiAntiquePv5-M";
+  src: 
+  url("/fonts/jp/GenEiAntiquePv5-M.ttf") format("truetype"),
+}
+@font-face {
+  font-family: "GenEiLateGoN_v2";
+  src: 
+  url("/fonts/jp/GenEiLateGoN_v2.ttf") format("truetype"),
+}
+@font-face {
+  font-family: "hkkaiiw";
+  src: 
+  url("/fonts/jp/hkkaiiw.ttf") format("truetype"),
+}
+@font-face {
+  font-family: "hkkaing";
+  src: 
+  url("/fonts/jp/hkkaing.ttf") format("truetype"),
+}
+@font-face {
+  font-family: "hkkakuh";
+  src: 
+  url("/fonts/jp/hkkakuh.ttf") format("truetype"),
+}
+@font-face {
+  font-family: "hkkoukotu";
+  src: 
+  url("/fonts/jp/hkkoukotu.ttf") format("truetype"),
+}
+.sign-stamp {
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: dashed 2px #ebebeb;
+    background-color: #fcfafa;
+    min-height: 160px;
+    .header {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.31;
+      color: #2e221e;
+      margin-bottom: 10px;
+    }
+    .max-width-260px {
+      max-width: 260px;
+    }
+    @media (max-width: 1320px) {
+      justify-content: center;
+      flex-direction: column;
+      button {
+        margin-top: 10px;
+      }
+
+    }
+  }
+  .sign-signature {
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .sign {
+      font-family: "Mrs Saint Delafield";
+      font-size: 30px;
+      line-height: 1.53;
+      color: #775649;
+      text-align: center;
+      
+      @media (max-width: 500px) {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+    }
+    .initials {
+      font-size: 40px;
+    }
+  }
+
+  .mark {
+    width: 100px;
+    height: 100px;
+  }
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 500px) {
+      width: 100%;
+    }
+    .action {
+      margin: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+    }
+  }
+  .stamp {
+    width: calc(50% - 10px);
+    margin: 0 5px 10px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    // @media (max-width: 500px) {
+    //   width: 100%;
+    //   margin: 0px;
+    // }
+    .stamp-action {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-between;
+      .action {
+        margin: 7px 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+      }
+    }
+  }
+}
+#create-signature-modal{
+  padding-left: 0 !important;
+  .modal-dialog {
+    width: 924px;    
+    @media (max-width: 600px) {
+      width: unset;
+    }
+    .create-signature-modal {
+      padding: 30px;
+      padding-top: 0;
+      background: white;
+      .title {
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 1.33;
+        text-align: center;
+        color: #2e221e;
+        margin-bottom: 30px;
+        @media (max-width: 600px) {
+          margin-bottom: 20px;
+        }
+      }
+      .draw-signature, .draw-initials {
+        min-height: 316px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 1.31;
+        text-align: center;
+        color: rgba(#2e221e, 0.3);
+      }
+      .draw-placeholder .sign-img{
+        width: 100%;
+      }
+      .reset {
+        position: absolute;
+        right: 40px;
+        bottom: 0px;
+      }
+      .carousel-caption {
+        padding-top: 0;
+        padding-bottom: 0;
+        right: 0;
+        left: 0;
+        bottom: unset;
+        top: 0;
+      }
+      .carousel-control-prev, .carousel-control-next {
+        z-index: 30;
+        top: calc(50% - 13px);
+        width: unset;
+        bottom: unset;
+
+        .carousel-control-next-icon {
+          background-image: unset;
+          color: #9ea0a5;
+          font-size: 25px;
+          opacity: 1;
+          &::before{
+            content: "\F178";
+            font-family: FontAwesome;
+          }
+          &:hover {
+            color: #8a6454;
+          }
+        }
+        .carousel-control-prev-icon {
+          background-image: unset;
+          color: #9ea0a5;
+          font-size: 25px;
+          opacity: 1;
+          &::before{
+            content: "\F177";
+            font-family: FontAwesome;
+          }
+          &:hover {
+            color: #8a6454;
+          }
+        }
+      }
+      .signatures {
+        max-height: 350px;
+        overflow-y: auto;
+
+        .signature-group {
+          padding: 0 32px;
+        }
+        .sign-result {
+          border-radius: 5px;
+          border: solid 1px #ebebeb;
+          color: #202020;
+          font-family: "Mrs Saint Delafield";
+          line-height: 1.51;
+          padding: 12px;
+          min-height: 124px;
+          position: relative;
+          margin: 5px 0;
+
+          &:hover {
+            cursor: pointer;
+            background-color: #ebebeb;
+          }
+          .pl-40px {
+            padding-left: 40px;
+          }
+          .left-border {
+            border: solid 2px #8a6454;
+            border-right: none;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            height: 76px;
+            min-width: 15px;
+            margin-right: 5px;
+          }
+          .right-border {
+            border: solid 2px #8a6454;
+            border-left: none;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            height: 76px;
+            min-width: 15px;
+            margin-left: 5px;
+          }
+          .signed-by {
+            font-size: 1rem;
+            font-family: Roboto;
+            font-weight: bold;
+          }
+          .signed-id {
+            font-size: 1rem;
+            font-family: Roboto;
+          }
+          .signature-text {
+            font-size: 29px;
+            @media screen {
+
+            }
+          }
+          .hr-bar {
+            border-top: solid 1px #ebebeb;
+            width: 100%;
+          }
+          .initials-text {
+            font-size: 50px;
+            height: 60px;
+          }
+          .check-box {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+          }
+
+        }
+        .checked {
+          border-color: #ef634c;
+          border-width: 2px;
+        }
+        .left-button {
+          position: absolute;
+          left: 0px;
+          top: calc(50% - 11px);
+          font-size: 22px;
+        }
+        .right-button {
+          position: absolute;
+          right: 0px;
+          top: calc(50% - 11px);
+          font-size: 22px;
+        }
+      }
+      .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @media (max-width:600px) {
+          flex-direction: column;
+        }
+        .summary {
+          max-width: 542px;
+          font-size: 12px;
+          line-height: 1.67;
+          text-align: left;
+          color: #9ea0a5;
+        }
+        .buttons {
+          display: flex;
+          align-items: center;
+          button {
+            padding-left: 45px;
+            padding-right: 45px;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+#create-stamp-modal{
+  padding-left: 0;
+  .modal-dialog {
+    width: 924px;
+    @media (max-width: 600px) {
+      width: unset;
+    }
+    .create-signature-modal {
+      padding: 30px;
+      padding-top: 0;
+      background: white;
+      .title {
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 1.33;
+        text-align: center;
+        color: #2e221e;
+        margin-bottom: 30px;
+        
+        @media (max-width: 600px) {
+          margin-bottom: 20px;
+        }
+      }
+      .draw-signature, .draw-initials {
+        min-height: 316px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 1.31;
+        text-align: center;
+        color: rgba(#2e221e, 0.3);
+      }
+      .reset {
+        position: absolute;
+        right: 40px;
+        bottom: 0px;
+      }
+      .signatures {
+        padding-left: 40px;
+        padding-right: 40px;
+        position: relative;
+        .sign-result {
+          border-radius: 5px;
+          border: solid 1px #ebebeb;
+          min-height: 235px;
+          color: #202020;
+          font-family: "Mrs Saint Delafield";
+          line-height: 1.51;
+          padding: 12px;
+          max-height: 235px;
+
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          height: 100%;
+          position: relative;
+          cursor: pointer;
+
+          .kr-stamp {
+            font-family: 'Goyang';
+            font-size: 30px;
+            color: red;
+            // border: solid 3px red;
+            border-radius: 50%;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            word-break: keep-all;
+            width: 80px;
+            height: 80px;
+            text-align: center;
+            line-height: 30px;
+          }
+          .jp-stamp {
+            font-family: 'crayon_1-1';
+          }
+          .signature-text {
+            font-size: 39px;
+          }
+          .hr-bar {
+            border-top: solid 1px #ebebeb;
+            width: 100%;
+          }
+          .initials-text {
+            font-size: 60px;
+            height: 60px;
+          }
+          .check-box {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+          }
+
+        }
+        .checked {
+          border-color: #ef634c;
+          border-width: 2px;
+        }
+        .left-button {
+          position: absolute;
+          left: 0px;
+          top: calc(50% - 11px);
+          font-size: 22px;
+        }
+        .right-button {
+          position: absolute;
+          right: 0px;
+          top: calc(50% - 11px);
+          font-size: 22px;
+        }
+      }
+      .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @media (max-width:600px) {
+          flex-direction: column;
+        }
+        .summary {
+          max-width: 542px;
+          font-size: 12px;
+          line-height: 1.67;
+          text-align: left;
+          color: #9ea0a5;
+        }
+        .buttons {
+          display: flex;
+          align-items: center;
+          button {
+            padding-left: 45px;
+            padding-right: 45px;
+          }
+        }
+
+      }
+    }
+  }
+}

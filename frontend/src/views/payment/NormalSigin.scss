@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield");
+.normal-sign {
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 1200px) {
+      flex-wrap: wrap;
+    }
+    .user-happy {
+      display: flex;
+      align-items: center;
+      max-width: 700px;
+      .happy {
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 1.32;
+        color: #2e221e;
+      }
+      .avatar-tag {
+        width: 90px;
+        height: 90px;
+        min-width: 90px;
+        border-radius: 50%;
+        background: #8a6454;
+        color: white;
+        font-size: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        .change-avatar {
+          position: absolute;
+          bottom: 0;
+          text-align: center;
+          font-size: 0.8rem;
+          height: 1.5rem;
+          background: rgba(0,0,0,.54);
+          width: 100%;
+          &:hover {
+            cursor: pointer;
+
+          }
+        }
+
+      }
+    }
+    .user-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .user-action {
+        border-right: solid 1px #d8d4d4;
+        padding: 0 25px;
+        margin-right: 10px;
+        @media (max-width: 1200px) {
+          padding: 0 5px;
+          margin-right: 5px;
+        }
+        .action-numbers {
+          height: 48px;
+          font-size: 36px;
+          font-weight: 500;
+          line-height: 1.33;
+          color: #775649;
+        }
+        .action-type {
+          margin-top: 21px;
+          height: 21px;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 1.56;
+          text-align: left;
+          color: #2e221e;
+        }
+      }
+      .user-plan {
+        padding: 0 25px;
+        display: flex;
+        @media (max-width: 1200px) {
+          padding: 0 5px;
+        }
+        img {
+          min-width: 40px;
+        }
+        .upgrade-content {
+          margin-left: 10px;
+          .upgrade-to {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.31;
+            text-align: left;
+            color: #775649;
+          }
+          .click-here {
+            font-size: 14px;
+            line-height: 1.79;
+            text-align: left;
+            color: #ef634c;
+          }
+        }
+      }
+    }
+  }
+  .sign-signature {
+    padding: 15px;
+    .header {
+      height: 21px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.56;
+      text-align: left;
+      color: #2e221e;
+    }
+    .sign {
+      font-family: "Mrs Saint Delafield";
+      font-size: 58px;
+      line-height: 1.53;
+      color: #775649;
+      padding: 24px 0 0 0;
+      text-align: center;
+
+      @media (max-width: 500px) {
+        padding: 15px 0;
+      }
+    }
+    .initials {
+      font-size: 73px;
+      margin-left: -30px;
+    }
+    .stamp {
+      padding: 44px 0;
+      @media (max-width: 500px) {
+        padding: 47px 0;
+      }
+      .upload-initials {
+        opacity: 0.3;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 1.31;
+        text-align: center;
+        color: #2e221e;
+        @media (max-width: 500px) {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+  .completion {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.36;
+    color: #41302a;
+    margin-bottom: 18px;
+  }
+  .chart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 36px 0;
+    .completion-rate {
+      width: 110px;
+      height: 110px;
+      min-width: 110px;
+      min-height: 110px;
+      border-radius: 50%;
+      background-color: #eeeae8;
+      font-size: 28px;
+      font-weight: bold;
+      line-height: 1.32;
+      color: #775649;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+#change-avatar-modal{
+  .modal-dialog {
+    width: 600px;
+    
+    @media (max-width: 600px) {
+      width: unset;
+    }
+    .change-avatar-modal {
+      padding: 30px;
+      padding-top: 0;
+      background: white;
+      
+      @media (max-width: 600px) {
+        padding: 20px;
+        padding-top: 0;
+      }
+      .title {  
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 1.35;
+        text-align: center;
+        color: #41302a;
+        margin-bottom: 25px;
+        margin-top: 25px;
+      }
+      .img-control-btns {
+        display: flex;
+        justify-content: space-between;
+      }
+      .avatars {
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid #e4e7ea;
+        border-radius: 5px;
+        .avatar {
+          min-width: 100px;
+          min-height: 100px;
+
+          margin: 5px;
+
+          border-radius: 50%;
+          border: 1px solid #e4e7ea;
+          cursor: pointer;
+
+          &:hover {
+            box-shadow: 0 0 3px 0 #775649;
+          }
+        }
+        .selected {
+          border: solid 2px red;
+        }
+      }
+      .cut {
+        width: 350px;
+        height: 350px;
+        margin: 30px auto;
+      }
+    }
+  }
+}

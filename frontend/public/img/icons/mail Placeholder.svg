@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-1{fill:#9ea0a5}
+        </style>
+    </defs>
+    <path id="mail_Placeholder" d="M14 16H2a1.983 1.983 0 0 1-.838-.19l5.21-5.43L8 11.5l1.629-1.12 5.209 5.43A1.973 1.973 0 0 1 14 16zm1.645-.865L10.468 9.8 16 5.658V14a1.992 1.992 0 0 1-.355 1.134zm-15.29 0A1.986 1.986 0 0 1 0 14V5.5l5.533 4.3-5.178 5.335zM8 10.328L.12 4.425 8 0l7.88 4.425L8 10.328z" class="cls-1" data-name="mail Placeholder"/>
+</svg>

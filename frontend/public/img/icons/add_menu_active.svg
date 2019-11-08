@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <path id="add_menu_active" d="M8.824 3.81H6.19V1.176a1.191 1.191 0 0 0-2.381 0V3.81H1.176a1.191 1.191 0 0 0 0 2.381H3.81v2.633a1.191 1.191 0 0 0 2.381 0V6.19h2.633a1.191 1.191 0 0 0 0-2.381z" class="cls-1"/>
+</svg>

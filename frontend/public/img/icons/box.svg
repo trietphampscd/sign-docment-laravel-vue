@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;stroke:#dce0e2;stroke-width:2px}.cls-2{fill:#00aef0}.cls-3{stroke:none}.cls-4{fill:none}
+        </style>
+    </defs>
+    <g id="box">
+        <g id="Rectangle_87" class="cls-1" data-name="Rectangle 87">
+            <rect width="50" height="50" class="cls-3" rx="5"/>
+            <rect width="48" height="48" x="1" y="1" class="cls-4" rx="4"/>
+        </g>
+        <g id="box-2" data-name="box" transform="translate(7 15)">
+            <path id="Path_765" d="M18.412 112.7a6.509 6.509 0 0 0-5.958 3.846 6.548 6.548 0 0 0-9.35-2.9v-5.26a1.54 1.54 0 0 0-1.552-1.528A1.54 1.54 0 0 0 0 108.378v10.71a6.513 6.513 0 0 0 12.454 2.547 6.472 6.472 0 1 0 5.958-8.94zM6.5 122.426a3.338 3.338 0 1 1 3.392-3.338 3.369 3.369 0 0 1-3.392 3.338zm11.916 0a3.338 3.338 0 1 1 3.392-3.338 3.369 3.369 0 0 1-3.396 3.338z" class="cls-2" data-name="Path 765" transform="translate(0 -106.85)"/>
+            <path id="Path_766" d="M307.978 182.642l3.808-4.356a1.552 1.552 0 0 0-2.337-2.044l-3.533 4.041-3.533-4.041a1.552 1.552 0 0 0-2.337 2.044l3.808 4.356-3.808 4.358a1.552 1.552 0 0 0 2.337 2.044l3.533-4.044 3.533 4.041a1.552 1.552 0 0 0 2.338-2.041z" class="cls-2" data-name="Path 766" transform="translate(-276.171 -170.572)"/>
+        </g>
+    </g>
+</svg>

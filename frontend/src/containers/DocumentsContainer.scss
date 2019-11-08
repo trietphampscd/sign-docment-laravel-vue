@@ -1,0 +1,50 @@
+.prepare-tool-nav {
+  .tool-nav-item {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 20px 0 rgba(65, 48, 42, 0.15);
+    background-color: rgba(255, 255, 255, 0.2);
+    // background-color: white;
+  }
+}
+.doc-timeline {
+  display: flex;
+  margin-left: auto;
+  @media (max-width: 770px) {
+    display: none;
+  }
+  .timeline-item {
+    display: flex;
+    align-items: center;
+    .timeline-title {
+      margin-left: 5px;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.36;
+      color: #2e221e;
+    }
+    .header-radio-dashline {
+      min-width: 61px;
+      border-top: dashed 2px gray;
+      height: 2px;
+      align-self: center;
+      margin-left: 15px;
+      margin-right: 15px;
+      @media (max-width: 1400px) {
+        min-width: 30px;
+      }
+      @media (max-width: 1190px) {
+        min-width: 0px;
+        margin-right: 10px;
+        margin-left: 0;
+      }
+    }
+    .ready {
+      background-color: rgba(239, 99, 76, 0.1);
+      color: #ef634c;
+    }
+    .waiting {
+      color: #9ea0a5;
+    }
+  }
+}

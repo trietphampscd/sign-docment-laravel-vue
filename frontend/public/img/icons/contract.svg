@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+    <defs>
+        <style>
+            .cls-1{fill:#eeeae8}.cls-2{fill:#d1cac6}.cls-3{fill:#84665a}.cls-4{fill:#2e221e}
+        </style>
+    </defs>
+    <g id="contract">
+        <path id="Path_890" d="M35.374 8.789V50H0V0h23.648zm0 0" class="cls-1" data-name="Path 890"/>
+        <path id="Path_892" d="M243.905 0H242v8.775h11.7V6.53zm0 0" class="cls-2" data-name="Path 892" transform="translate(-218.356)"/>
+        <path id="Path_893" d="M90 151h17.746v2.925H90zm0 0" class="cls-2" data-name="Path 893" transform="translate(-81.203 -136.252)"/>
+        <path id="Path_894" d="M60 211h23.6v2.925H60zm0 0" class="cls-2" data-name="Path 894" transform="translate(-54.15 -190.393)"/>
+        <path id="Path_895" d="M60 271h23.6v2.925H60zm0 0" class="cls-2" data-name="Path 895" transform="translate(-54.15 -244.533)"/>
+        <path id="Path_896" d="M60 331h23.6v2.925H60zm0 0" class="cls-2" data-name="Path 896" transform="translate(-54.15 -298.673)"/>
+        <path id="Path_897" d="M60 421h8.873v2.925H60zm0 0" class="cls-3" data-name="Path 897" transform="translate(-54.15 -379.873)"/>
+        <path id="Path_902" d="M407.526 185.989l-6.205 6.205h-4.137v-4.137l6.205-6.205a2.925 2.925 0 0 1 4.137 4.137zm0 0" class="cls-4" data-name="Path 902" transform="translate(-358.379 -163.316)"/>
+        <path id="Path_904" d="M267.307 257.527l-12.41 12.41-6.205 2.069 2.069-6.205 12.41-12.41zm0 0" class="cls-3" data-name="Path 904" transform="translate(-224.365 -228.606)"/>
+    </g>
+</svg>

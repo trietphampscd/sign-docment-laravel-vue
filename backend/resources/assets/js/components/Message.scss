@@ -1,0 +1,78 @@
+
+.message {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  .message-toggle-icon {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #ef634c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover{
+      cursor: pointer;
+      width: 64px;
+      height: 64px;
+      box-shadow: 0 0 7px 0 rgba(239, 99, 76, 0.5);
+    }
+  }
+
+  .substraction__wrap {
+    max-width: 350px;
+    height: auto;
+    background-color: #fcfafa;
+    border: solid 1px #775649;
+    border-radius: 5px;
+    overflow: hidden;
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    transform: scaleY(0);
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transform-origin: bottom;
+    z-index: 999;
+    .substraction__title {
+      padding: 20px 15px;
+      background-image: url(../../../../public/img/add_doc/group-71.png);
+      background-repeat: no-repeat;
+      background-position: top center;
+      -webkit-background-size: cover;
+      background-size: cover;
+      color: #fff;
+      .substraction__logo {
+          margin-bottom: 15px;
+          width: 85px;
+          height: 30px;
+      }
+      .substraction__h3 {
+          font-size: 22px;
+          margin-bottom: 5px;
+      } 
+    }
+    .substraction__form {
+      max-width: 95%;
+      margin: 10px auto;
+      padding: 10px;
+      -webkit-box-shadow: 0 0 6px #775649;
+      box-shadow: 0 0 6px #775649;
+      background-color: #fff;
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+
+    }
+  }
+  
+  .active{
+    transform: scaleY(1);
+    display: block;
+  }
+
+}
